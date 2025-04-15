@@ -27,7 +27,7 @@ filter(hn_posts_path, filtered_posts)
 l = get_links(filtered_posts)
 c = get_link_content(l)
 s = send_to_ai(c)
-print(s)
+# print(s)
 
 # Write the AI response to a text file
 with open(research_notes_path, 'w', encoding='utf-8') as file:

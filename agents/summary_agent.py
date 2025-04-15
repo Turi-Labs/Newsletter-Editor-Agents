@@ -1,9 +1,22 @@
 from crewai import LLM, Agent, Task, Crew
 import os
+import yaml
 from dotenv import load_dotenv
+
+def load_prompts():
+    try:
+        with open('prompts/summary_agent.yaml', 'r') as file:
+            return yaml.safe_load(file)
+    except FileNotFoundError:
+        raise Exception("prompts.yaml file not found")
+    except yaml.YAMLError as e:
+        raise Exception(f"Error parsing YAML file: {e}")
+
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
+prompts = load_prompts()
+
 
 llm = LLM(
     model="openai/o3-mini",
@@ -14,27 +27,16 @@ llm = LLM(
 
 def generate_summary(content: str, title: str) -> str:
     summary_agent = Agent(
-        role='Content Summarizer',
-        goal='Create concise, informative summaries of technical content',
-        backstory='''You are an expert at distilling complex technical information into clear, 
-        concise summaries that capture the key points while maintaining accuracy.''',
+        role=prompts['agent']['role'],
+        goal=prompts['agent']['goal'],
+        backstory=prompts['agent']['backstory'],
         llm=llm,
         verbose=False
     )
     
     summary_task = Task(
-        description=f'''Summarize the following content about "{title}":
-        
-        {content}
-        
-        Create a concise 2-3 paragraph summary that captures:
-        1. The main point or announcement
-        2. Key technical details or findings
-        3. Potential significance or implications
-        
-        Keep your summary factual and objective.''',
-        expected_output='''You are an expert at distilling complex technical information into clear, 
-        concise summaries that capture the key points while maintaining accuracy.''',
+        description=prompts['task']['description'].format(title=title, content=content),
+        expected_output=prompts['task']['expected_output'],
         agent=summary_agent
     )
     

@@ -5,8 +5,18 @@ import os
 import yaml
 from dotenv import load_dotenv
 
+def load_prompts():
+    try:
+        with open('prompts/filter_agent.yaml', 'r') as file:
+            return yaml.safe_load(file)
+    except FileNotFoundError:
+        raise Exception("prompts.yaml file not found")
+    except yaml.YAMLError as e:
+        raise Exception(f"Error parsing YAML file: {e}")
+
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
+prompts = load_prompts()
 
 llm = LLM(
     model="openai/o3-mini",
@@ -20,32 +30,18 @@ class Agent1Format(BaseModel):
 
 def run(input):
     agent1 = Agent(
-        role='AI News Analyst specializing in Hacker News',
-        goal='Filter Hacker News posts to identify the most significant and impactful AI news, research, and projects.',
-        backstory='''You are an expert AI analyst programmed to scan Hacker News, discerning true signals from noise.
-        You understand the typical markers of important announcements, breakthrough research, and high-impact community projects within the AI field.
-        You prioritize substance over hype and focus on identifying posts that truly matter for staying informed about AI advancements.''',
+        role=prompts['agent']['role'],
+        goal=prompts['agent']['goal'],
+        backstory=prompts['agent']['backstory'],
         llm=llm,
         verbose=True
     )
 
 
     task1 = Task(
-        description=f'''Analyze a the string: {input}. 
-        
-        Based *only* on the title and links, evaluate if the post likely falls into one of the priority categories:
-        
-        1.  **Significant News & Announcements:** Major product launches (e.g., new models/news from OpenAI, Google, Anthropic), significant updates, major funding rounds, acquisitions, important policy/regulation news related to AI from key players or governments. Look for official sources mentioned or implied.
-        2.  **Breakthrough Research & Papers:** Posts indicating influential research papers (e.g., mentioning arXiv, new techniques, architectures, benchmark results that suggest a leap forward). Look for terms like "new model," "state-of-the-art," "novel technique."
-        3.  **High-Impact "Show HN" Projects:** Potential new open-source tools, libraries, datasets, or compelling AI applications shared by creators that seem to solve a real problem, demonstrate a novel capability, or could gain significant traction. Look for "Show HN" tag and descriptions implying usefulness or innovation.
-
-        Exclude minor updates, tutorials, general discussions, opinion pieces, small personal projects unless they clearly signal high impact.
-        Input: A list of Hacker News post titles.
-        ''',
+        description=prompts['task']['description'].format(input=input),
         agent=agent1,
-        expected_output='''For each post title provided in the input, determine if it meets the criteria for a high-priority item (True) or not (False).
-        Output the result as a boolean
-        ''',
+        expected_output=prompts['task']['expected_output'],
         output_pydantic=Agent1Format
     )
 
