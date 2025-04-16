@@ -31,7 +31,7 @@ total_tokens=1020 prompt_tokens=860  completion_tokens=160 :
 total_tokens=2557 prompt_tokens=861  completion_tokens=1696 :
 total_tokens=1163 prompt_tokens=875  completion_tokens=288 :
 total_tokens=1073 prompt_tokens=849  completion_tokens=224 :
-total_tokens=1019 prompt_tokens=859  completion_tokens=160 :
+total_tokensdid u rea =1019 prompt_tokens=859  completion_tokens=160 :
 total_tokens=1011 prompt_tokens=851  completion_tokens=160 :
 total_tokens=1083 prompt_tokens=859  completion_tokens=224 :
 total_tokens=947 prompt_tokens=851  completion_tokens=96 :
@@ -105,4 +105,14 @@ total_tokens=42487 prompt_tokens=40482 cached_prompt_tokens=0 completion_tokens=
 total_tokens=5901 prompt_tokens=5023 cached_prompt_tokens=0 completion_tokens=878 successful_requests=1Usage Metrics for Summary Agent:
 total_tokens=3732 prompt_tokens=2923 cached_prompt_tokens=0 completion_tokens=809 successful_requests=1Usage Metrics for Summary Agent:
 total_tokens=8401 prompt_tokens=7436 cached_prompt_tokens=0 completion_tokens=965 successful_requests=1Usage Metrics for Newsletter Agent:
-total_tokens=3907 prompt_tokens=2731 cached_prompt_tokens=0 completion_tokens=1176 successful_requests=1
+total_tokens=3907 prompt_tokens=2731 cached_prompt_tokens=0 completion_tokens=1176 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=2616 prompt_tokens=1957 cached_prompt_tokens=1664 completion_tokens=659 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=18518 prompt_tokens=17535 cached_prompt_tokens=17280 completion_tokens=983 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=3977 prompt_tokens=3375 cached_prompt_tokens=3200 completion_tokens=602 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=46549 prompt_tokens=45520 cached_prompt_tokens=45312 completion_tokens=1029 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=41102 prompt_tokens=40447 cached_prompt_tokens=40192 completion_tokens=655 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=6065 prompt_tokens=5062 cached_prompt_tokens=4864 completion_tokens=1003 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=3980 prompt_tokens=2926 cached_prompt_tokens=2688 completion_tokens=1054 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=8066 prompt_tokens=7426 cached_prompt_tokens=7168 completion_tokens=640 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=2378 prompt_tokens=1717 cached_prompt_tokens=1536 completion_tokens=661 successful_requests=1Usage Metrics for Newsletter Agent:
+total_tokens=4211 prompt_tokens=3052 cached_prompt_tokens=0 completion_tokens=1159 successful_requests=1

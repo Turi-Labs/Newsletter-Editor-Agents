@@ -14,12 +14,12 @@ def extract_links_from_results(content):
         if line.startswith('### '):
             current_title = line.replace('### ', '').strip()
         
+        elif line.startswith('Link: '):
+            current_link = line.replace('Link: ', '').strip()
+        
         # Extract HN link
         elif line.startswith('Hn Link: '):
             current_hn_link = line.replace('Hn Link: ', '').strip()
-        
-        elif line.startswith('Link: '):
-            current_link = line.replace('Link: ', '').strip()
             
             # If we have both title and link, add them to our results
             if current_title and current_hn_link:
