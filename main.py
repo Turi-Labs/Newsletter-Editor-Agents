@@ -7,19 +7,20 @@ from agents.newsletter_agent import craft_newsletter
 from datetime import datetime
 import os
 
-today = datetime.now().strftime("%d-%m-%Y")
-
+# today = datetime.now().strftime("%d-%m-%Y") # Change this. yyy-mm-dd is the format
+date = "2025-03-20"
+today = date
 if not os.path.exists(today):
     os.makedirs(today)
 
-## File paths. I want to add them in a folder named by the date dd-mm-yyyy.
+## File paths. I want to add them in a folder named by the date yyy-mm-dd.
 hn_posts_path = os.path.join(today, "hn_posts.md")
 filtered_posts = os.path.join(today, "filtered_posts.md")
 research_notes_path = os.path.join(today, "research_notes.md")
 newsletter_path = os.path.join(today, "newsletter.md")
 
 
-write_hn_posts("2025-03-20", 100, hn_posts_path)
+write_hn_posts(date, 50, hn_posts_path)
 
 filter(hn_posts_path, filtered_posts)
 

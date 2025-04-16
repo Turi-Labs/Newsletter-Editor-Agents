@@ -46,5 +46,10 @@ def generate_summary(content: str, title: str) -> str:
     )
     
     result = crew.kickoff()
+
+    with open('usage_metrics.txt', 'a') as f:
+        f.write(f"Usage Metrics for Summary Agent:\n")
+        f.write(str(crew.usage_metrics))
+    
     return result.tasks_output[0]
 

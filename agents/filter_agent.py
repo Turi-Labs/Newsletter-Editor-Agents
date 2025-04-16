@@ -58,6 +58,10 @@ def run(input):
 
     agent1 = results.tasks_output[0]
     # print(type(agent1))
+    with open('usage_metrics.txt', 'a') as f:
+        f.write(f"Usage Metrics for Filter Agent:\n")
+        f.write(str(crew.usage_metrics))
+    
     # Print task outputs
     print("Task 1 Output:", agent1)
     # print(crew.usage_metrics)
