@@ -16,6 +16,7 @@ task:
       1. The main point or announcement
       2. Key technical details or findings
       3. Potential significance or implications
+      4. The link: {link}
         
     Keep your summary factual and objective.
   expected_output: >

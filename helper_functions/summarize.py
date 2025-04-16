@@ -17,12 +17,16 @@ def extract_links_from_results(content):
         # Extract HN link
         elif line.startswith('Hn Link: '):
             current_hn_link = line.replace('Hn Link: ', '').strip()
+        
+        elif line.startswith('Link: '):
+            current_link = line.replace('Link: ', '').strip()
             
             # If we have both title and link, add them to our results
             if current_title and current_hn_link:
-                links.append((current_title, current_hn_link))
+                links.append((current_title, current_hn_link, current_link))
                 current_title = None
                 current_hn_link = None
+                current_link = None
     
     return links
 
@@ -37,18 +41,18 @@ def get_links(filename: str):
 # Send links to the extract method
 def get_link_content(extracted_links):
     content = []
-    for title, link in extracted_links:
+    for title, hn_link, link in extracted_links:
         print(link)
-        c = extract_main_content(link)
+        c = extract_main_content(hn_link)
         # print(c)
-        content.append((title, c))
+        content.append((title, c, link))
     return content
 
 # Send summaries to ai agent
 def send_to_ai(content):
     summaries = []
-    for title, text in content:
-        summary = generate_summary(text, title)
+    for title, text, link in content:
+        summary = generate_summary(text, title, link)
         summaries.append(summary)
     return summaries
 

@@ -1,4 +1,3 @@
-Usage Metrics for Filter Agent:
 total_tokens=1193 prompt_tokens=843  completion_tokens=350 :
 total_tokens=1022 prompt_tokens=862  completion_tokens=160 :
 total_tokens=1086 prompt_tokens=862  completion_tokens=224 :
@@ -86,4 +85,24 @@ total_tokens=6279 prompt_tokens=5015  completion_tokens=1264 :
 total_tokens=4559 prompt_tokens=2909  completion_tokens=1650 :
 total_tokens=8405 prompt_tokens=7407  completion_tokens=998 :
 total_tokens=2715 prompt_tokens=1687  completion_tokens=1028 :
-total_tokens=3821 prompt_tokens=3043  completion_tokens=778
+total_tokens=3821 prompt_tokens=3043  completion_tokens=778Usage Metrics for Summary Agent:
+total_tokens=2909 prompt_tokens=1961 cached_prompt_tokens=0 completion_tokens=948 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=2616 prompt_tokens=1961 cached_prompt_tokens=1792 completion_tokens=655 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=18715 prompt_tokens=17542 cached_prompt_tokens=0 completion_tokens=1173 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=4539 prompt_tokens=3379 cached_prompt_tokens=0 completion_tokens=1160 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=46698 prompt_tokens=45524 cached_prompt_tokens=0 completion_tokens=1174 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=41177 prompt_tokens=40442 cached_prompt_tokens=0 completion_tokens=735 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=5582 prompt_tokens=5037 cached_prompt_tokens=0 completion_tokens=545 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=3403 prompt_tokens=2931 cached_prompt_tokens=0 completion_tokens=472 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=8061 prompt_tokens=7429 cached_prompt_tokens=0 completion_tokens=632 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=2623 prompt_tokens=1709 cached_prompt_tokens=0 completion_tokens=914 successful_requests=1Usage Metrics for Newsletter Agent:
+total_tokens=4281 prompt_tokens=3095 cached_prompt_tokens=0 completion_tokens=1186 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=2487 prompt_tokens=1940 cached_prompt_tokens=0 completion_tokens=547 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=18345 prompt_tokens=17551 cached_prompt_tokens=0 completion_tokens=794 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=4248 prompt_tokens=3364 cached_prompt_tokens=0 completion_tokens=884 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=47068 prompt_tokens=45532 cached_prompt_tokens=0 completion_tokens=1536 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=42487 prompt_tokens=40482 cached_prompt_tokens=0 completion_tokens=2005 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=5901 prompt_tokens=5023 cached_prompt_tokens=0 completion_tokens=878 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=3732 prompt_tokens=2923 cached_prompt_tokens=0 completion_tokens=809 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=8401 prompt_tokens=7436 cached_prompt_tokens=0 completion_tokens=965 successful_requests=1Usage Metrics for Newsletter Agent:
+total_tokens=3907 prompt_tokens=2731 cached_prompt_tokens=0 completion_tokens=1176 successful_requests=1

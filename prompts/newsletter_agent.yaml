@@ -15,7 +15,8 @@ task:
     Using the provided research notes, create an **extremely concise daily AI newsletter** designed for a **strict 2-minute read time**.
     Your process must involve:
         1.  **Ruthless Prioritization:** Identify only the *most significant* AI news, breakthroughs, or strategic moves from the notes. Discard minor updates or excessive detail.
-        2.  **Extreme Condensation:** Summarize each key point into just 1-2 impactful sentences. Use bullet points for the main news items.
+        2.  **Extreme Condensation:** Summarize each key point into just 1-2 impactful sentences. Also provide link whenever possible.  
+        Use bullet points for the main news items.
         3.  **Clear Structure:**
             *   Start with a concise, engaging title.
             *   Present the main news items as bullet points, possibly grouped under minimal thematic headings if essential for clarity 
@@ -31,7 +32,7 @@ task:
   expected_output: >
     A well-formatted markdown newsletter resembling this structure:
       - **Catchy Title**
-      - **Main News Bullets:** Each point extremely brief.
+      - **Main News Bullets:** Each point extremely brief along with the link.
       - **Quick Takeaway:** (1-2 sentences summarizing the day's essence).
 
     The output must be significantly condensed compared to the raw notes, focusing only on the absolute highlights 

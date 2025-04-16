@@ -25,7 +25,7 @@ llm = LLM(
     seed=42
 )
 
-def generate_summary(content: str, title: str) -> str:
+def generate_summary(content: str, title: str, link: str) -> str:
     summary_agent = Agent(
         role=prompts['agent']['role'],
         goal=prompts['agent']['goal'],
@@ -35,7 +35,7 @@ def generate_summary(content: str, title: str) -> str:
     )
     
     summary_task = Task(
-        description=prompts['task']['description'].format(title=title, content=content),
+        description=prompts['task']['description'].format(title=title, content=content, link = link),
         expected_output=prompts['task']['expected_output'],
         agent=summary_agent
     )
