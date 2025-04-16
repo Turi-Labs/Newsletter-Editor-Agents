@@ -115,4 +115,14 @@ total_tokens=6065 prompt_tokens=5062 cached_prompt_tokens=4864 completion_tokens
 total_tokens=3980 prompt_tokens=2926 cached_prompt_tokens=2688 completion_tokens=1054 successful_requests=1Usage Metrics for Summary Agent:
 total_tokens=8066 prompt_tokens=7426 cached_prompt_tokens=7168 completion_tokens=640 successful_requests=1Usage Metrics for Summary Agent:
 total_tokens=2378 prompt_tokens=1717 cached_prompt_tokens=1536 completion_tokens=661 successful_requests=1Usage Metrics for Newsletter Agent:
-total_tokens=4211 prompt_tokens=3052 cached_prompt_tokens=0 completion_tokens=1159 successful_requests=1
+total_tokens=4211 prompt_tokens=3052 cached_prompt_tokens=0 completion_tokens=1159 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=2733 prompt_tokens=1957 cached_prompt_tokens=1792 completion_tokens=776 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=18394 prompt_tokens=17535 cached_prompt_tokens=17408 completion_tokens=859 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=3901 prompt_tokens=3375 cached_prompt_tokens=3200 completion_tokens=526 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=46554 prompt_tokens=45520 cached_prompt_tokens=45440 completion_tokens=1034 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=41848 prompt_tokens=40447 cached_prompt_tokens=40320 completion_tokens=1401 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=5849 prompt_tokens=5062 cached_prompt_tokens=4992 completion_tokens=787 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=3912 prompt_tokens=2926 cached_prompt_tokens=2816 completion_tokens=986 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=7891 prompt_tokens=7426 cached_prompt_tokens=7296 completion_tokens=465 successful_requests=1Usage Metrics for Summary Agent:
+total_tokens=2833 prompt_tokens=1717 cached_prompt_tokens=1536 completion_tokens=1116 successful_requests=1Usage Metrics for Newsletter Agent:
+total_tokens=4382 prompt_tokens=3122 cached_prompt_tokens=0 completion_tokens=1260 successful_requests=1

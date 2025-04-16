@@ -20,9 +20,9 @@ research_notes_path = os.path.join(today, "research_notes.md")
 newsletter_path = os.path.join(today, "newsletter.md")
 
 
-write_hn_posts(date, 50, hn_posts_path)
+# write_hn_posts(date, 50, hn_posts_path)
 
-filter(hn_posts_path, filtered_posts)
+# filter(hn_posts_path, filtered_posts)
 
 # append all summaries to a txt file
 l = get_links(filtered_posts)
