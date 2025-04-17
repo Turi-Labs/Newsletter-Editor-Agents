@@ -60,6 +60,23 @@ def craft_newsletter(research_notes: str, filepath: str):
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(str(result.tasks_output[0]))    
     
+
+    # Extract the date from filepath
+    date = filepath.split('/')[1]
+
+    if not os.path.exists("newsletter"):
+        os.makedirs("newsletter")   
+    
+    newsletter = str(result.tasks_output[0])
+    
+    # Convert markdown to HTML
+    import markdown
+    html_content = markdown.markdown(newsletter)    
+
+    # Write the newsletter content to a file
+    with open(f"newsletter/{date}.md", 'w', encoding='utf-8') as f:
+        f.write(html_content) 
+
     return result.tasks_output[0]
 
 

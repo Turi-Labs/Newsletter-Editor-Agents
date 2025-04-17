@@ -12,19 +12,21 @@ agent:
 
 task:
   description: >
-    Using the provided research notes, create an **extremely concise daily AI newsletter** designed for a **strict 2-minute read time**.
+    Using the provided research notes, create an **ultra-brief daily AI news headlines** designed for a **30-second scan**.
     Your process must involve:
-        1.  **Ruthless Prioritization:** Identify only the *most significant* AI news, breakthroughs, or strategic moves from the notes. Discard minor updates or excessive detail.
-        2.  **Extreme Condensation:** Summarize each key point into just 1-2 impactful sentences. Also provide link whenever possible.  
-        Use bullet points for the main news items.
-        3.  **Clear Structure:**
-            *   Start with a concise, engaging title.
-            *   Present the main news items as bullet points, ensuring each point is concise and impactful.
-            *   Include a very brief "Quick Takeaway" section summarizing the overall trend or key message in 1-2 sentences.
-        4.  **Tone:** Keep it simple, short and conversational - write like you're explaining to a friend. Avoid fancy words and complicated language.
+        1.  **Extreme Filtering:** Identify AI news, model launches, breakthroughs, product launches,
+            discussions or strategic moves from the notes. Sort them based on the importance (launches, breakthroughs, AI news)
+            Discard minor updates or excessive detail.
+        2.  **Headline Format:** Each item should be a punchy headline of 10-15 words maximum. Include links where available.
+        3.  **Structure:**
+            *   Start with a short welcome message.
+            *   Present the main news items as bullet points, ensuring each point is concise and impactful. 
+                Add links (markdown syntax, ex: [Read More](link))
+            *   End with a one-sentence "Quick Takeaway" that captures the overall direction.
+        4.  **Style:** Write like newspaper headlines - direct, impactful, and information-dense. Keep it simple and stupid.
         5.  **Formatting:** Use markdown for readability (bolding key terms/names, bullet points).
 
-        **Constraint:** The *entire* output **must** be easily readable in approximately 2 minutes. Brevity is paramount.
+        **Constraint:** The entire newsletter must be scannable in 30 seconds or less. Think of it as AI news in headline form only.
 
     Research Notes to process:
       {research_notes}
@@ -36,4 +38,4 @@ task:
       - End Message: Something like this - Stay Updated: Follow us for daily insights into the fast-paced world of AI! Keep innovating, The TuriLabs Newsletter Team
 
     The output must be significantly condensed compared to the raw notes, focusing only on the absolute highlights 
-    to strictly adhere to the 2-minute read time.
+    to strictly adhere to the 1-2 minute read time.
