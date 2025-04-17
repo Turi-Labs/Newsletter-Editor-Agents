@@ -21,7 +21,7 @@ task:
             *   Start with a concise, engaging title.
             *   Present the main news items as bullet points, ensuring each point is concise and impactful.
             *   Include a very brief "Quick Takeaway" section summarizing the overall trend or key message in 1-2 sentences.
-        4.  **Tone:** Maintain a professional yet highly accessible and direct tone. Use strong verbs and avoid jargon where possible.
+        4.  **Tone:** Keep it simple, short and conversational - write like you're explaining to a friend. Avoid fancy words and complicated language.
         5.  **Formatting:** Use markdown for readability (bolding key terms/names, bullet points).
 
         **Constraint:** The *entire* output **must** be easily readable in approximately 2 minutes. Brevity is paramount.

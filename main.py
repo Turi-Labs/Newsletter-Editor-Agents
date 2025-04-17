@@ -25,17 +25,17 @@ newsletter_path = os.path.join(today, "newsletter.md")
 # filter(hn_posts_path, filtered_posts)
 
 # append all summaries to a txt file
-l = get_links(filtered_posts)
-c = get_link_content(l)
-s = send_to_ai(c)
+# l = get_links(filtered_posts)
+# c = get_link_content(l)
+# s = send_to_ai(c)
 # print(s)
 
 # Write the AI response to a text file
-with open(research_notes_path, 'w', encoding='utf-8') as file:
-    for i, summary in enumerate(s, 1):
-        file.write(f"Summary {i}:\n")
-        file.write(f"{summary}\n")
-        file.write("\n")
+# with open(research_notes_path, 'w', encoding='utf-8') as file:
+#     for i, summary in enumerate(s, 1):
+#         file.write(f"Summary {i}:\n")
+#         file.write(f"{summary}\n")
+#         file.write("\n")
 
 content = ''
 with open(research_notes_path, 'r') as file:
