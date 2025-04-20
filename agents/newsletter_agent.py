@@ -52,9 +52,9 @@ def craft_newsletter(research_notes: str, filepath: str):
     
     result = crew.kickoff()
     # print(result.tasks_output[0])
-    with open('usage_metrics.txt', 'a') as f:
-        f.write(f"Usage Metrics for Newsletter Agent:\n")
-        f.write(str(crew.usage_metrics))
+    # with open('usage_metrics.txt', 'a') as f:
+    #     f.write(f"Usage Metrics for Newsletter Agent:\n")
+    #     f.write(str(crew.usage_metrics))
     
     # Write the newsletter content to a file
     with open(filepath, 'w', encoding='utf-8') as f:
