@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 api_key = os.getenv("BREVO_API_KEY")
+
+
 def send_newsletter(html_path: str, subject: str):
     # 1. Configure client
     cfg = sib_api_v3_sdk.Configuration()
@@ -19,12 +21,24 @@ def send_newsletter(html_path: str, subject: str):
 
     # 3. Fill message object
     email = sib_api_v3_sdk.SendSmtpEmail(
-        sender={"email": "taddishetty34@gmail.com", "name": "AI Digest Bot"},
+        sender={"email": "newsletter@turilabs.tech", "name": "Turi Labs"},
         to=[
-            {"email": "taddishetty24@gmail.com", "name": "Recipient 1"}
+            {"email": "", "name": "recp 1"}
         ],
         subject=subject,
-        html_content=content  # If you're sending markdown, you might want to convert it to HTML first
+        html_content=content,  # If you're sending markdown, you might want to convert it to HTML first
+        headers={
+            "List-Unsubscribe": "<mailto:unsubscribe@turilabs.tech>",
+            "Precedence": "bulk",
+            "X-Entity-Ref-ID": "newsletter-2025-04-19"
+        },
+        # Add these parameters
+        reply_to={
+            "email": "saiyashwanth@turilabs.tech",
+            "name": "Turi Labs Founder"
+        },
+        # Optional tags for tracking
+        tags=["newsletter", "daily-digest"]
     )
 
     # 4. Send and handle response
@@ -38,6 +52,6 @@ def send_newsletter(html_path: str, subject: str):
 
 if __name__ == "__main__":
     try:
-        send_newsletter("newsletter/2025-04-19.md", "📰 Your AI digest")
+        send_newsletter("newsletter/2025-04-23.md", "Here's what happened in the last 24 hours!")
     except Exception as e:
         print(f"Failed to send newsletter: {str(e)}")
