@@ -35,7 +35,11 @@ task:
       - Welcome Message: Something like this: Welcome to your rapid brief on today's key AI moves, designed for a quick read.
       - Main News Bullets: Each point extremely brief along with the link.
       - Quick Takeaway: (1-2 sentences summarizing the day's essence).
-      - End Message: Something like this - Stay Updated: Follow us for daily insights into the fast-paced world of AI! Keep innovating, The TuriLabs Newsletter Team
+      - End Message: Something like this - 
+            "Stay Updated: Follow us for daily insights into the fast-paced world of AI! 
+            
+            Keep innovating, 
+            The TuriLabs Newsletter Team"
 
     The output must be significantly condensed compared to the raw notes, focusing only on the absolute highlights 
     to strictly adhere to the 1-2 minute read time.
