@@ -1,8 +1,10 @@
 import os
 import sib_api_v3_sdk
 from sib_api_v3_sdk.rest import ApiException
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
+
+
 # Get Brevo API key from environment (no .env file needed in GitHub Actions)
 load_dotenv()
 api_key = os.getenv("BREVO_API_KEY")

@@ -4,10 +4,10 @@ from helper_functions.summarize import *
 from agents.newsletter_agent import craft_newsletter
 
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 
-today = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d") 
+today = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 # date = "2025-03-10"
 # today = date
 base_dir = "knowledgebase"
