@@ -5,3 +5,4 @@ crewai
 PyYAML
 python-dotenv
 markdown
+sib_api_v3_sdk
