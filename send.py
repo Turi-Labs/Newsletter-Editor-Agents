@@ -64,8 +64,8 @@ def send_newsletter(html_path: str, subject: str):
 if __name__ == "__main__":
     try:
         # Use dynamic date and correct path
-        # today = datetime.now().strftime("%Y-%m-%d")
-        today = "2025-03-10"
+        today = datetime.now().strftime("%Y-%m-%d")
+        # today = "2025-03-10"
         newsletter_path = f"newsletter/{today}.md"
         subject = f"Here's what happened in the last 24 hours! ({today})"
         success = send_newsletter(newsletter_path, subject)

@@ -7,9 +7,9 @@ from agents.newsletter_agent import craft_newsletter
 from datetime import datetime
 import os
 
-# today = datetime.now().strftime("%d-%m-%Y") # Change this. yyy-mm-dd is the format
-date = "2025-03-10"
-today = date
+today = datetime.now().strftime("%Y-%m-%d") # Change this. yyy-mm-dd is the format
+# date = "2025-03-10"
+# today = date
 base_dir = "knowledgebase"
 
 today_dir = os.path.join(base_dir, today)
