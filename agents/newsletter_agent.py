@@ -61,6 +61,7 @@ def craft_newsletter(research_notes: str, filepath: str):
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(str(result.tasks_output[0]))    
     
+    print("Written in filepath")
 
     # Extract the date from filepath
     date = filepath.split('/')[1]
@@ -75,9 +76,11 @@ def craft_newsletter(research_notes: str, filepath: str):
     html_content = markdown.markdown(newsletter)    
 
     # Write the newsletter content to a file
+    print("Write the files")
     with open(f"newsletter/{date}.md", 'w', encoding='utf-8') as f:
         f.write(html_content) 
-
+    
+    print("Return the crew")
     return result.tasks_output[0]
 
 
