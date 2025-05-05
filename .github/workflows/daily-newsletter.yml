@@ -1,7 +1,7 @@
 name: Daily Newsletter Automation
 on:
   schedule:
-    - cron: '0 17 * * *'  # 17:00 UTC (10:30 PM IST)
+g
   workflow_dispatch:
 
 jobs:
