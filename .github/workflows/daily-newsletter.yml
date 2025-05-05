@@ -37,13 +37,6 @@ jobs:
           python send.py || echo "Send script exited with code: $?"
         continue-on-error: true
 
-  commit-changes:
-    needs: generate-newsletter
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Commit and push changes
         run: |
           git config --global user.name 'GitHub Action'
