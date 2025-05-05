@@ -37,6 +37,7 @@ print("AI summaries generated")
 # print(s)
 
 # Write the AI response to a text file
+print("Started writing summaries to research_notes.md")
 with open(research_notes_path, 'w', encoding='utf-8') as file:
     for i, summary in enumerate(s, 1):
         file.write(f"Summary {i}:\n")
@@ -47,4 +48,6 @@ content = ''
 with open(research_notes_path, 'r') as file:
     content = file.read()
 
+print("Newsletter Generation started")
 craft_newsletter(content, newsletter_path)
+print("Newsletter successfully generated and saved")
