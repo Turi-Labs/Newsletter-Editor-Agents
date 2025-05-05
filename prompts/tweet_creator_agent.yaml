@@ -21,4 +21,5 @@ task:
     Summary notes:
     {summary}
   expected_output: >
-    A single tweet string composed of two parts: a concise factual summary followed by a brief, natural-sounding commentary/reaction. The tweet must be direct, insightful, and include no hashtags or links.
+    A tweet string composed of two parts: a concise factual summary followed by a brief, natural-sounding commentary/reaction. The tweet must be direct, insightful, and include no hashtags or links.
+    A link string which contains the links if present in this summary

@@ -91,21 +91,21 @@ async def take_and_split_screenshot(url, base_output_path="screenshot"):
 
     return output_paths
 
-# --- How to use it ---
-if __name__ == "__main__":
-    target_url = "https://www.quantamagazine.org/improving-deep-learning-with-a-little-help-from-physics-20250423/"
+# # --- How to use it ---
+# if __name__ == "__main__":
+#     target_url = "https://arxiv.org/abs/2404.04671"
 
-    screenshots_dir = "screenshots"
-    os.makedirs(screenshots_dir, exist_ok=True)
+#     screenshots_dir = "screenshots"
+#     os.makedirs(screenshots_dir, exist_ok=True)
 
-    output_base_name = os.path.join(screenshots_dir, "screenshot")
+#     output_base_name = os.path.join(screenshots_dir, "screenshot")
 
-    # Run the async function
-    created_files = asyncio.run(take_and_split_screenshot(target_url, output_base_name))
+#     # Run the async function
+#     created_files = asyncio.run(take_and_split_screenshot(target_url, output_base_name))
 
-    if created_files:
-        print("\nSuccessfully created screenshot chunks:")
-        for f in created_files:
-            print(f"- {f}")
-    else:
-        print("\nScreenshot generation failed or produced no files.")
+#     if created_files:
+#         print("\nSuccessfully created screenshot chunks:")
+#         for f in created_files:
+#             print(f"- {f}")
+#     else:
+#         print("\nScreenshot generation failed or produced no files.")

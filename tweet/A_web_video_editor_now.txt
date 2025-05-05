@@ -1,0 +1,1 @@
+A web video editor now auto-removes silence and generates AI-based subtitles locally to speed up editing. A welcome boost for anyone looking to cut down post-production time.

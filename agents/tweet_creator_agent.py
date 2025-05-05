@@ -2,6 +2,7 @@ from crewai import LLM, Agent, Task, Crew
 import os
 import yaml
 from dotenv import load_dotenv
+from pydantic import BaseModel
 
 def load_prompts():
     try:
@@ -25,6 +26,10 @@ llm = LLM(
     seed=42
 )
 
+class resp(BaseModel):
+    tweet: str
+    link: str
+
 def create_tweet(summary: str) -> str:
     creator_agent = Agent(
         role=prompts['agent']['role'],
@@ -37,7 +42,8 @@ def create_tweet(summary: str) -> str:
     creator_task = Task(
         description=prompts['task']['description'].format(summary=summary),
         expected_output=prompts['task']['expected_output'],
-        agent=creator_agent
+        agent=creator_agent,
+        output_pydantic=resp
     )
     
     crew = Crew(
@@ -47,10 +53,11 @@ def create_tweet(summary: str) -> str:
     
     result = crew.kickoff()
     print(result)
-
+    task_output = crew.tasks[0].output
+    print(task_output)
     # with open('usage_metrics.txt', 'a') as f:
     #     f.write(f"Usage Metrics for Summary Agent:\n")
     #     f.write(str(crew.usage_metrics))
     
-    return result.tasks_output[0]
+    return task_output.pydantic
 

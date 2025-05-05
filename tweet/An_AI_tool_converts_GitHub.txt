@@ -1,0 +1,1 @@
+An AI tool converts GitHub codebases into structured, easy-to-follow tutorials using advanced language models and prompt refinement. A smart move that could really simplify onboarding for developers.
