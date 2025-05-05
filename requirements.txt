@@ -4,3 +4,4 @@ pydantic
 crewai
 PyYAML
 python-dotenv
+markdown
