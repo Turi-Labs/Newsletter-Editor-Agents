@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add knowledgebase/
+          git add .
           git commit -m "Add newsletter files for $(date +%Y-%m-%d)" || echo "No changes to commit"
           git push
         env:

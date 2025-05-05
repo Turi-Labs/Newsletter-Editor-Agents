@@ -2,6 +2,7 @@ from crewai import LLM, Agent, Task, Crew
 import os
 import yaml
 from dotenv import load_dotenv
+import markdown
 
 def load_prompts():
     try:
@@ -72,13 +73,16 @@ def craft_newsletter(research_notes: str, filepath: str):
     newsletter = str(result.tasks_output[0])
     
     # Convert markdown to HTML
-    import markdown
     html_content = markdown.markdown(newsletter)    
 
     # Write the newsletter content to a file
     print("Write the files")
+    print(f"Opening file: newsletter/{date}.md for writing")
     with open(f"newsletter/{date}.md", 'w', encoding='utf-8') as f:
-        f.write(html_content) 
+        print(f"Writing HTML content to newsletter/{date}.md")
+        f.write(html_content)
+    print(f"Successfully wrote content to newsletter/{date}.md") 
+        
     
     print("Return the crew")
     return result.tasks_output[0]
