@@ -8,7 +8,7 @@ from datetime import datetime
 import os
 
 # today = datetime.now().strftime("%d-%m-%Y") # Change this. yyy-mm-dd is the format
-date = "2025-03-13"
+date = "2025-03-12"
 today = date
 base_dir = "knowledgebase"
 
@@ -29,8 +29,11 @@ filter(hn_posts_path, filtered_posts)
 
 # append all summaries to a txt file
 l = get_links(filtered_posts)
+print("Links extracted successfully")
 c = get_link_content(l)
+print("Content extracted from links")
 s = send_to_ai(c)
+print("AI summaries generated")
 # print(s)
 
 # Write the AI response to a text file

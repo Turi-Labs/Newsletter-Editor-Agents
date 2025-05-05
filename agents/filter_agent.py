@@ -34,7 +34,7 @@ def run(input):
         goal=prompts['agent']['goal'],
         backstory=prompts['agent']['backstory'],
         llm=llm,
-        verbose=True
+        verbose=False
     )
 
 
