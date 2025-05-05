@@ -49,8 +49,9 @@ def craft_newsletter(research_notes: str, filepath: str):
         agents=[newsletter_writer],
         tasks=[newsletter_task]
     )
-    
+    print("Kick off crew")
     result = crew.kickoff()
+    print(result)
     # print(result.tasks_output[0])
     # with open('usage_metrics.txt', 'a') as f:
     #     f.write(f"Usage Metrics for Newsletter Agent:\n")
