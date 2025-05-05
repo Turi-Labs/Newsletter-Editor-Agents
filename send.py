@@ -64,7 +64,7 @@ if __name__ == "__main__":
     try:
         # Use dynamic date and correct path
         # today = datetime.now().strftime("%Y-%m-%d")
-        date = "2025-03-14"
+        today = "2025-03-14"
         newsletter_path = f"knowledgebase/{today}/newsletter.md"
         subject = f"Here's what happened in the last 24 hours! ({today})"
         success = send_newsletter(newsletter_path, subject)
