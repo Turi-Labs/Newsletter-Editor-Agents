@@ -23,7 +23,7 @@ research_notes_path = os.path.join(today_dir, "research_notes.md")
 newsletter_path = os.path.join(today_dir, "newsletter.md")
 print(newsletter_path)
 
-write_hn_posts(date, 5, hn_posts_path)
+write_hn_posts(date, 10, hn_posts_path)
 
 filter(hn_posts_path, filtered_posts)
 
