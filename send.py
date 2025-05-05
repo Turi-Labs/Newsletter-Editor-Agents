@@ -2,8 +2,9 @@ import os
 import sib_api_v3_sdk
 from sib_api_v3_sdk.rest import ApiException
 from datetime import datetime
-
+from dotenv import load_dotenv
 # Get Brevo API key from environment (no .env file needed in GitHub Actions)
+load_dotenv()
 api_key = os.getenv("BREVO_API_KEY")
 
 def send_newsletter(html_path: str, subject: str):
@@ -64,8 +65,8 @@ if __name__ == "__main__":
     try:
         # Use dynamic date and correct path
         # today = datetime.now().strftime("%Y-%m-%d")
-        today = "2025-03-14"
-        newsletter_path = f"knowledgebase/{today}/newsletter.md"
+        today = "2025-03-10"
+        newsletter_path = f"newsletter/{today}.md"
         subject = f"Here's what happened in the last 24 hours! ({today})"
         success = send_newsletter(newsletter_path, subject)
         if not success:

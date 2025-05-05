@@ -8,7 +8,7 @@ from datetime import datetime
 import os
 
 # today = datetime.now().strftime("%d-%m-%Y") # Change this. yyy-mm-dd is the format
-date = "2025-03-14"
+date = "2025-03-10"
 today = date
 base_dir = "knowledgebase"
 
