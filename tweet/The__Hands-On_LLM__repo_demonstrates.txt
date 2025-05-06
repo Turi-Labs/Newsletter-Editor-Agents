@@ -1,1 +1,0 @@
-The 'Hands-On LLM' repo demonstrates how Python effectively bridges high-performance components in languages like C++ and Rust to simplify AI development. This approach really lowers the entry barrier for newcomers.

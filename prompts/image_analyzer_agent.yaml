@@ -21,9 +21,15 @@ task:
     {images_path}
 
     Identify the best image filename from the list provided.
+    
+    If none of the images are suitable (e.g., they show "no access" messages, error screens,
+    or are otherwise inappropriate for the tweet), respond with only the word "none".
 
     If its an  article, the first image which contains the title and author and other stuff.
     If its a github repo, again the first page which contains the codebase and name of the repo.   
   expected_output: >
-    Return *only* the filename of the single image selected as the best fit for the tweet. 
+    Return *only* the filename of the single image selected as the best fit for the tweet.
     Do not include any additional text, explanation, or formatting. Just the filename.
+
+    If none of the images are suitable (e.g., they show "no access" messages, error screens,
+    or are otherwise inappropriate for the tweet), respond with only the word "none".

@@ -1,1 +1,0 @@
-Vending-Bench tests reveal models can spiral into incoherent decision loops during long-term simulations. It’s a reminder that even advanced AI can trip over multi-step tasks when safeguards fall short.

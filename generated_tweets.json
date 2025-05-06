@@ -1,0 +1,28 @@
+[
+
+    {
+        "index": 5,
+        "tweet": "Meta\u2019s Llama offers free model weights under an EU AI Act exemption as a form of open source, though its use restrictions make it fall short of traditional open-source definitions. It\u2019s a clear trade-off between transparency and regulatory caution.",
+        "image_path": "screenshots/Meta_s_Llama_offers_free_model.png"
+    },
+    {
+        "index": 6,
+        "tweet": "Gemma 3\u2019s QAT models cut memory use to 15\u201322GB without losing BF16-like quality, making powerful AI more accessible on consumer GPUs. A clear win for users wanting efficient, high-performance solutions at home.",
+        "image_path": "screenshots/Gemma_3_s_QAT_models_cut.png"
+    },
+    {
+        "index": 7,
+        "tweet": "Ilya Sutskever\u2019s startup hit a $30B valuation based on its promise in AI safety and superintelligence despite lacking a full product. It shows how reputation and potential are reshaping trust in emerging AI ventures.",
+        "image_path": null
+    },
+    {
+        "index": 8,
+        "tweet": "AI video generation now runs on gaming GPUs with just 6GB of VRAM using optimized software like Framepack. A smart step that could really democratize creative AI tools.",
+        "image_path": null
+    },
+    {
+        "index": 9,
+        "tweet": "The response clarifies that a direct output isn\u2019t possible and a summary is available instead. It serves as a reminder that constraints often lead to alternative solutions.",
+        "image_path": null
+    }
+]
