@@ -1,28 +1,37 @@
 [
-
+    {
+        "index": 3,
+        "tweet": "Databricks plans a $1B move to acquire Neon, a startup pioneering serverless Postgres with automatic scaling. A bold consolidation step that makes you wonder if innovation can thrive in a giant's shadow.",
+        "image_path": "screenshots/Databricks_plans_a__1B_move.png"
+    },
+    {
+        "index": 4,
+        "tweet": "OpenAI converts its capped-profit LLC into a Public Benefit Corporation, allowing unrestricted profit potential while keeping nonprofit oversight. Feels like a pragmatic move to balance commercial goals with a mission for universal AGI benefits.",
+        "image_path": null
+    },
     {
         "index": 5,
-        "tweet": "Meta\u2019s Llama offers free model weights under an EU AI Act exemption as a form of open source, though its use restrictions make it fall short of traditional open-source definitions. It\u2019s a clear trade-off between transparency and regulatory caution.",
-        "image_path": "screenshots/Meta_s_Llama_offers_free_model.png"
+        "tweet": "Klavis AI simplifies integration with Model Context Protocol servers by offering secure, open-source, and hosted solutions with OAuth and multi-tenancy. A refreshing approach that cuts development hassle and enhances security.",
+        "image_path": "screenshots/Klavis_AI_simplifies_integration_with.png"
     },
     {
         "index": 6,
-        "tweet": "Gemma 3\u2019s QAT models cut memory use to 15\u201322GB without losing BF16-like quality, making powerful AI more accessible on consumer GPUs. A clear win for users wanting efficient, high-performance solutions at home.",
-        "image_path": "screenshots/Gemma_3_s_QAT_models_cut.png"
+        "tweet": "PII Guard leverages AI to identify and manage personal data for GDPR compliance. A smart step towards simplifying data protection.",
+        "image_path": "screenshots/PII_Guard_leverages_AI_to.png"
     },
     {
         "index": 7,
-        "tweet": "Ilya Sutskever\u2019s startup hit a $30B valuation based on its promise in AI safety and superintelligence despite lacking a full product. It shows how reputation and potential are reshaping trust in emerging AI ventures.",
-        "image_path": null
+        "tweet": "VectorVFS embeds semantic metadata into file attributes to transform your filesystem into a vector database for offline semantic search. It\u2019s a clever step forward in local file retrieval.",
+        "image_path": "screenshots/VectorVFS_embeds_semantic_metadata_into.png"
     },
     {
         "index": 8,
-        "tweet": "AI video generation now runs on gaming GPUs with just 6GB of VRAM using optimized software like Framepack. A smart step that could really democratize creative AI tools.",
-        "image_path": null
+        "tweet": "An open-source tool now offers a terminal UI for generating AI-based webpage parsers via Chrome DevTools and storing data in DuckDB. Looks like a smart move to simplify real-time web content extraction.",
+        "image_path": "screenshots/An_open-source_tool_now_offers.png"
     },
     {
         "index": 9,
-        "tweet": "The response clarifies that a direct output isn\u2019t possible and a summary is available instead. It serves as a reminder that constraints often lead to alternative solutions.",
+        "tweet": "Meta's use of AI to transform copyrighted books is under scrutiny to see if such digital processing counts as fair use. This case might just redefine digital copyrights in the AI era.",
         "image_path": null
     }
 ]
