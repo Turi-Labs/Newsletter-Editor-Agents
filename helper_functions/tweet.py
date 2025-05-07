@@ -29,6 +29,7 @@ def post_tweet(text: str, img_path: str) -> str:
         response = client.create_tweet(text=text)
 
     tweet_url = f"https://twitter.com/user/status/{response.data['id']}"
-    return f"Tweet posted successfully: {tweet_url}"
-
+    r = f"Tweet posted successfully: {tweet_url}"
+    print(r)
+    return r
 # post_tweet("hello, I am an agent! ", None)
