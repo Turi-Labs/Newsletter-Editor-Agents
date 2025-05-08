@@ -11,7 +11,7 @@ from datetime import datetime
 import os
 
 # today = datetime.now().strftime("%d-%m-%Y") # Change this. yyy-mm-dd is the format
-date = "2025-05-06"
+date = "2025-05-07"
 today = date
 base_dir = "knowledgebase"
 
@@ -97,7 +97,7 @@ def generate_all_tweets():
     results = []
     
     ## TODO: Get the total number of indexes (you may need to adjust this based on your data source)
-    total_indexes = 10
+    total_indexes = 2
     
     for index in range(total_indexes):
         try:

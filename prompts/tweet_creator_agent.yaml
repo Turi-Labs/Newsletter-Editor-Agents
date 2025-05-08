@@ -10,29 +10,41 @@ task:
   description: >
     1. Receive a technical summary dynamically provided as summary notes.
     2. Identify the most interesting or impactful aspect of the technical content.
-    3. Create a tweet that feels natural and conversational. You can:
-       - Share a genuine reaction or thought
-       - Ask a thought-provoking question
-       - Express excitement or surprise
-       - Make a clever observation
-       - Share a practical implication
-       - Draw an interesting parallel
-       - Express curiosity about future implications
+    3. Create a detailed tweet (around 100 words) that feels natural and authentic. You can:
+       - Share an in-depth observation or reflection with supporting details
+       - Pose a series of connected thoughtful questions
+       - Express curiosity while exploring multiple angles
+       - Note interesting details and their implications
+       - Consider practical impact with real-world examples
+       - Make connections between different aspects
+       - Wonder about future possibilities with context
+
     4. **Style Guidelines:**
-       - Vary your approach - don't use the same pattern every time
-       - Write like you're talking to a friend
-       - Be authentic and natural
-       - Avoid corporate or marketing language
-       - Keep it concise but conversational
-       - Feel free to use casual language and contractions
-       - Use line breaks in tweets to improve readability when appropriate
+       - Keep your tone conversational but detailed
+       - Write like you're having a deeper discussion
+       - Be honest and thorough in your 
+       - Add line breaks after every 2 sentences. Make sure the tweet is not a wall of text.
+       - Stay grounded while exploring nuance
+       - Structure longer thoughts with natural breaks
+       - Use simple language even for complex ideas
+       - Show your thinking process
+       - Let the technology's details emerge naturally
+       - Build on ideas progressively
+       - Include relevant context and background
+       - Balance technical accuracy with accessibility
+
     5. **What to Avoid:**
-       - Formal announcements or press release style
-       - Marketing buzzwords 
-       - Excessive enthusiasm or hype
+       - Overly enthusiastic language
+       - Marketing speak or buzzwords
+       - Forced excitement
+       - Trying to sound clever
        - Hashtags or links
-       - emdash (—)
-       - Generic phrases like "Check out" or "Interesting read"
+       - Using emdash (—)
+       - Generic intros like "Check out" or "Interesting"
+       - Overconfident statements
+       - Oversimplifying complex topics
+       - Rushing through important details
+       - Skipping necessary context
 
     Summary notes:
     {summary}
