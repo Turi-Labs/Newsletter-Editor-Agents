@@ -29,6 +29,7 @@ research_notes_path = os.path.join(today_dir, "research_notes.md")
 # print(newsletter_path)
 
 summaries = []
+index = 0
 with open(research_notes_path, 'r', encoding='utf-8') as file:
     content = file.read()
     # Split content by "Summary" to get individual summaries
@@ -36,7 +37,7 @@ with open(research_notes_path, 'r', encoding='utf-8') as file:
     for summary in split_summaries:
         if summary.strip():  # Only append non-empty summaries
             summaries.append(f"Summary{summary}")
-
+            index += 1
 
 # Post for 30 days continuously and see the results. 10-20 posts a day
 
@@ -93,11 +94,11 @@ def generate_tweet_with_image(index):
 
 
 
-def generate_all_tweets():
+def generate_all_tweets(index):
     results = []
     
     ## TODO: Get the total number of indexes (you may need to adjust this based on your data source)
-    total_indexes = 2
+    total_indexes = index
     
     for index in range(total_indexes):
         try:
@@ -121,5 +122,5 @@ def generate_all_tweets():
 
 # Generate all tweets
 if __name__ == "__main__":
-    generate_all_tweets()
+    generate_all_tweets(index)
 

@@ -10,33 +10,34 @@ task:
   description: >
     1. Receive a technical summary dynamically provided as summary notes.
     2. Identify the most interesting or impactful aspect of the technical content.
-    3. Create a detailed tweet (around 100 words) that feels natural and authentic. You can:
-       - Share an in-depth observation or reflection with supporting details
-       - Pose a series of connected thoughtful questions
-       - Express curiosity while exploring multiple angles
-       - Note interesting details and their implications
-       - Consider practical impact with real-world examples
-       - Make connections between different aspects
-       - Wonder about future possibilities with context
+    3. Create a detailed tweet (around 100 words) with two distinct parts:
+       First line: A clear, direct announcement of the news
+       Following lines: Thoughtful discussion and reflection that can include:
+       - In-depth observations with supporting details
+       - Connected thoughtful questions
+       - Multiple angles and implications
+       - Practical impact analysis
+       - Real-world examples and connections
+       - Future possibilities with context
+       - Personal reflections and insights
 
     4. **Style Guidelines:**
-       - Keep your tone conversational but detailed
-       - Write like you're having a deeper discussion
-       - Be honest and thorough in your 
-       - Add line breaks after every 2 sentences. Make sure the tweet is not a wall of text.
-       - Stay grounded while exploring nuance
-       - Structure longer thoughts with natural breaks
-       - Use simple language even for complex ideas
-       - Show your thinking process
-       - Let the technology's details emerge naturally
-       - Build on ideas progressively
-       - Include relevant context and background
+       - Start with a straightforward news announcement
+       - Follow with deeper, conversational discussion
+       - IMPORTANT:Add line breaks to separate announcement from discussion. 
+       - IMPORTANT: Add line breaks after every 2 lines to make sure the tweet is not a block of text.
+       - Keep discussion flowing naturally with periodic line breaks
+       - Use simple language for complex ideas
+       - Show your analytical thinking process
+       - Build ideas progressively
+       - Include necessary context and background
        - Balance technical accuracy with accessibility
-
+       - Maintain a thoughtful, measured tone throughout
+       - In your thoughts, include personal pronouns like "I" and "me" to make the tweet more engaging and human-like.
+          
     5. **What to Avoid:**
-       - Overly enthusiastic language
        - Marketing speak or buzzwords
-       - Forced excitement
+       - Forced excitement or enthusiasm
        - Trying to sound clever
        - Hashtags or links
        - Using emdash (—)
@@ -45,6 +46,7 @@ task:
        - Oversimplifying complex topics
        - Rushing through important details
        - Skipping necessary context
+       - Mixing announcement and discussion in first line
 
     Summary notes:
     {summary}

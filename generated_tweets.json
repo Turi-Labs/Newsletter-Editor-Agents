@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "index": 10,
+        "tweet": "Apple is set to revamp its browser by integrating AI search capabilities.\nThis move could challenge the old ad-based search model.\n\nI find it fascinating that this new tech demands about 10 times the computing power, hinting at a shift toward subscription models or ads built right into AI responses.\nIt makes me wonder if this could redefine how digital ads and premium content coexist in our daily browsing.\n\nThis pivot may lead to a major industry transformation, echoing trends seen at competitors like Bing.\nI\u2019m eager to see where this path takes us.",
+        "image_path": null
+    },
+    {
+        "index": 11,
+        "tweet": "Mistral launches le chat, an on-premises AI assistant designed to keep business data secure.\nMistral\u2019s new tool runs locally using containerized setups like Docker, ensuring sensitive information stays in-house.\n\nLe chat integrates with model runners like Ollama and MLX, making it versatile for various enterprise needs.\nI\u2019m impressed by how it caters to both modest setups, like a Mac Mini, and high-performance rigs with 64GB RAM.\n\nThis move sparks a thoughtful debate on data sovereignty and local AI deployment, showing a smart balance between cutting-edge AI and privacy.",
+        "image_path": "screenshots/Mistral_launches_le_chat__an.png"
+    },
+    {
+        "index": 12,
+        "tweet": "Mistral unveils its Medium model with fresh benchmarking insights.\n\nIn this release, they focus on honest performance claims while matching established models like Deepseek V3.1. I find it interesting that even with only a marginal speed boost and no major cost advantage, the model promises authentic benchmarks for self-hosting.\n\nIt\u2019s cool to think about using four GPUs to power this model for business integration. I'm curious how future larger models will further influence the competitive landscape.",
+        "image_path": "screenshots/Mistral_unveils_its_Medium_model.png"
+    },
+    {
+        "index": 13,
+        "tweet": "OpenAI announces its new 'OpenAI for Countries' initiative!\nThis effort partners with governments to tailor AI solutions for local challenges.\n\nI love that they\u2019re integrating advanced models with localized safety protocols.\nBalancing innovation with ethical oversight has never been more important.\n\nIt makes me wonder how these direct collaborations might shape policy and raise global standards for responsible AI.\nThis initiative bridges rapid tech development and the need for transparent regulation.\n\nPersonally, I see it as a smart stride toward merging technological progress with accountability.\nIt sparks real conversations about a secure, innovative AI future.\n\nI\u2019m excited to see how this unfolds, fostering dialogue and adaptive policies.",
+        "image_path": null
+    },
+    {
+        "index": 14,
+        "tweet": "Announcement: Mark Zuckerberg envisions a future where AI becomes our primary social companion.\n\nI\u2019m both intrigued and cautious as his vision suggests we might trade real human warmth for algorithm-driven empathy.\n\nDeep insight into personal behaviors could mean AI offers constant, personalized interaction, but at what cost?\n\nI worry that relying on AI for companionship could dilute the messy, irreplaceable nature of human connections.\n\nThis raises pressing questions about ethics, isolation, and the true value of our relationships.\n\nHow will this shift impact our everyday social lives?",
+        "image_path": null
+    },
+    {
+        "index": 16,
+        "tweet": "Jargonic now achieves state-of-the-art performance in Japanese ASR.\n\nI\u2019m excited to see such advancements, though I can\u2019t help but wonder what specific tweaks led to these improvements.\nThe details remain a bit cloudy, which leaves me curious about how it stacks up against models like GPT-4o-transcribe.\n\nI find it fascinating how technical innovations can stir up both serious discussion and humorous nods, like the ham radio operators reference.\nCan this progress reshape real-world applications in speech tech?\n",
+        "image_path": "screenshots/Jargonic_now_achieves_state-of-the-art_performance.png"
+    },
+    {
+        "index": 17,
+        "tweet": "Announcement: Zed launches Agentic Editing in Zed with advanced AI code editing features!\n\nI find it impressive how this innovation promises to boost coding efficiency. The migration of discussions to Hacker News hints at some strong community debates.\n\nI wonder if this push will outshine current contenders like aider. It's fascinating to see AI reshaping developer workflows and sparking fresh questions about smart tools.\n\nThe potential real-world impact is compelling, and I\u2019m excited about the future possibilities this brings to everyday coding practices.",
+        "image_path": null
+    }
+]
