@@ -1,37 +1,102 @@
 [
     {
-        "index": 10,
-        "tweet": "Apple is set to revamp its browser by integrating AI search capabilities.\nThis move could challenge the old ad-based search model.\n\nI find it fascinating that this new tech demands about 10 times the computing power, hinting at a shift toward subscription models or ads built right into AI responses.\nIt makes me wonder if this could redefine how digital ads and premium content coexist in our daily browsing.\n\nThis pivot may lead to a major industry transformation, echoing trends seen at competitors like Bing.\nI\u2019m eager to see where this path takes us.",
+        "index": 3,
+        "tweet": "Apple is stepping up its game with new specialized chips, powering everything from AR glasses to Mac upgrades and AI servers.\n\nThis move underscores their commitment to custom silicon that boosts both performance and power efficiency. I\u2019m curious to see how these innovations will reshape the user experience and drive forward integrated hardware designs. What do you think about the future of tech with such focused advancements?",
         "image_path": null
+    },
+    {
+        "index": 4,
+        "tweet": "I noticed Google Gemini\u2019s update is intentionally cautious, reportedly overprotecting content\u2014a bit too prude for sensitive contexts.\n\nSome folks appreciate the safety nets to prevent harmful content, while others point out that these filters are interfering with apps vital for trauma survivors, which need more flexible responses. It makes me wonder about the trade-off between security and nuanced support. Are we sacrificing genuine care for an over-sanitized approach? Let\u2019s think about how AI should balance protection with empathy in delicate areas.",
+        "image_path": "screenshots/I_noticed_Google_Gemini_s_update.png"
+    },
+    {
+        "index": 5,
+        "tweet": "Hugging Face just pushed the envelope with its new Open Computer Agent!\n\nInteracting with Linux using natural language is a game changer \u2013 it feels like you're chatting with a tech buddy rather than writing commands.\n\nThis could seriously lower the tech barrier and simplify complex workflows. Do you think this human-like interface might be the future of computing?",
+        "image_path": "screenshots/Hugging_Face_just_pushed_the.png"
+    },
+    {
+        "index": 6,
+        "tweet": "Claude Code just rolled out a $100/month flat-rate plan with usage limits.\n\nI find it fascinating that while some say the cost seems steep, the productivity gains could really pay off if you nail context management and prompt engineering.\n\nIt\u2019s a real balancing act between token consumption challenges and output quality. How do you see this model stacking up against unlimited alternatives?",
+        "image_path": "screenshots/Claude_Code_just_rolled_out.png"
+    },
+    {
+        "index": 7,
+        "tweet": "Kit is a new open-source toolkit for AI dev tools that\u2019s got some intriguing features.\n\nIt performs precise text and regex searches and even tracks every definition and reference of a symbol. Note: its advanced capabilities kick in when files follow a specific naming convention.\n\nI\u2019m curious to see how this tree-sitter powered solution will improve code navigation and search reliability.",
+        "image_path": "screenshots/Kit_is_a_new_open-source.png"
+    },
+    {
+        "index": 8,
+        "tweet": "Check out this nifty AI tool for Excel!\n\nAleks Misztal\u2019s new add-in lets you chat with your spreadsheet, breaking down complex financial models in natural language.\n\nIt smartly decodes formulas using semantic search and reasoning, offering a fresh way to interact with data.\n\nI\u2019m really intrigued by how this could simplify our daily work with spreadsheets.",
+        "image_path": "screenshots/Check_out_this_nifty_AI.png"
+    },
+    {
+        "index": 9,
+        "tweet": "LoCoDiff benchmark is a refreshing step in evaluating long-context code.\n\nIt challenges AI to handle real-world, complex codebases by using naturally sourced samples. I find it fascinating\u2014could this push our models to better understand and generate extended code? The benchmark highlights a real need as software grows ever more intricate.\n\nI\u2019m excited to see where this leads for code generation and AI advancements!",
+        "image_path": "screenshots/LoCoDiff_benchmark_is_a_refreshing.png"
+    },
+    {
+        "index": 10,
+        "tweet": "It's fascinating to see how LLMs display emergent behavior that seems almost magical at first glance. \n\nSome argue it\u2019s simply the result of deep statistical interpolation and data compression from tons of human-generated content, not just a function of model size. \n\nI wonder: are we really uncovering hidden intelligence, or is it more about how a ton of small capabilities add up? This debate really makes me think about the nature of machine learning.",
+        "image_path": "screenshots/It_s_fascinating_to_see_how.png"
     },
     {
         "index": 11,
-        "tweet": "Mistral launches le chat, an on-premises AI assistant designed to keep business data secure.\nMistral\u2019s new tool runs locally using containerized setups like Docker, ensuring sensitive information stays in-house.\n\nLe chat integrates with model runners like Ollama and MLX, making it versatile for various enterprise needs.\nI\u2019m impressed by how it caters to both modest setups, like a Mac Mini, and high-performance rigs with 64GB RAM.\n\nThis move sparks a thoughtful debate on data sovereignty and local AI deployment, showing a smart balance between cutting-edge AI and privacy.",
-        "image_path": "screenshots/Mistral_launches_le_chat__an.png"
+        "tweet": "Observing the tech scene, I'm really intrigued by Osmosis\u2019 new lightweight open source model for MCP connections.\n\nIt's built on Qwen3-4B with smart multi-turn training, achieving performance parity with larger systems like Gemini 2.5 Pro on GSM8K benchmarks.\n\nThe potential here is huge: it runs locally, can be fine-tuned for specific needs, and integrates effortlessly with clients using Qwen3 setups\u2014be it OpenRouter or Ollama.\n\nThis breakthrough paves the way for more flexible, accessible multi-turn tool-calling solutions, and it's sparking my curiosity about what tailored innovations might follow.\n\nI find it exciting how open source and smart training techniques are challenging the norms and opening doors to groundbreaking customization.",
+        "image_path": "screenshots/Observing_the_tech_scene__I_m.png"
     },
     {
         "index": 12,
-        "tweet": "Mistral unveils its Medium model with fresh benchmarking insights.\n\nIn this release, they focus on honest performance claims while matching established models like Deepseek V3.1. I find it interesting that even with only a marginal speed boost and no major cost advantage, the model promises authentic benchmarks for self-hosting.\n\nIt\u2019s cool to think about using four GPUs to power this model for business integration. I'm curious how future larger models will further influence the competitive landscape.",
-        "image_path": "screenshots/Mistral_unveils_its_Medium_model.png"
+        "tweet": "Have you ever been hit with unexpected AI service limits that derail your workflow? I've definitely felt that frustration until I discovered limits.fyi.\n\nThis neat tool lets you compare usage limits, pricing, and plan details for services like ChatGPT and Claude, helping ease that 'query anxiety'. I\u2019m excited about upcoming features like mix recommendations and improved side-by-side comparisons.\n\nPlus, the platform welcomes community contributions to keep the info current and reliable.\n\nCould this be the game-changer for our AI workflows?",
+        "image_path": "screenshots/Have_you_ever_been_hit.png"
     },
     {
         "index": 13,
-        "tweet": "OpenAI announces its new 'OpenAI for Countries' initiative!\nThis effort partners with governments to tailor AI solutions for local challenges.\n\nI love that they\u2019re integrating advanced models with localized safety protocols.\nBalancing innovation with ethical oversight has never been more important.\n\nIt makes me wonder how these direct collaborations might shape policy and raise global standards for responsible AI.\nThis initiative bridges rapid tech development and the need for transparent regulation.\n\nPersonally, I see it as a smart stride toward merging technological progress with accountability.\nIt sparks real conversations about a secure, innovative AI future.\n\nI\u2019m excited to see how this unfolds, fostering dialogue and adaptive policies.",
-        "image_path": null
+        "tweet": "Checking out a fresh take on text generation with 70. Block Diffusion. This approach blends the quick performance of autoregressive models with the imaginative spin of diffusion-based techniques inspired by image generation like ControlNet.\n\nI find it intriguing that while diffusion methods can yield creative outputs, they also add a layer of complexity that demands a solid grip on math and stats. Is this a breakthrough bridging two worlds or just a niche experiment? The blend points to a fascinating cross-disciplinary innovation that might reframe how we generate meaningful text.",
+        "image_path": "screenshots/Checking_out_a_fresh_take.png"
     },
     {
         "index": 14,
-        "tweet": "Announcement: Mark Zuckerberg envisions a future where AI becomes our primary social companion.\n\nI\u2019m both intrigued and cautious as his vision suggests we might trade real human warmth for algorithm-driven empathy.\n\nDeep insight into personal behaviors could mean AI offers constant, personalized interaction, but at what cost?\n\nI worry that relying on AI for companionship could dilute the messy, irreplaceable nature of human connections.\n\nThis raises pressing questions about ethics, isolation, and the true value of our relationships.\n\nHow will this shift impact our everyday social lives?",
+        "tweet": "Sam Altman just shared plans to roll out an 'open source' model this summer, though it might not be fully transparent. \n\nThe model may use closed datasets and proprietary methods, raising questions about its true openness. \n\nWhile some see it as a brilliant move to drive innovation and attract talent, others argue it's more symbolic and limited in usability. \n\nI\u2019m curious\u2014can such a hybrid approach really balance openness and practicality?",
         "image_path": null
     },
     {
+        "index": 15,
+        "tweet": "Brokk is shaking up our coding workflow!\n\nIt uses a clever multi-step process\u2014starting with quick context using static analysis and semantic embeddings, then a deep scan that enriches summaries and suggests key files, and even offers a dynamic agentic search for classes and methods.\n\nThis approach might just redefine our role from manual coding to supervising smart AI suggestions in large codebases.",
+        "image_path": "screenshots/Brokk_is_shaking_up_our.png"
+    },
+    {
         "index": 16,
-        "tweet": "Jargonic now achieves state-of-the-art performance in Japanese ASR.\n\nI\u2019m excited to see such advancements, though I can\u2019t help but wonder what specific tweaks led to these improvements.\nThe details remain a bit cloudy, which leaves me curious about how it stacks up against models like GPT-4o-transcribe.\n\nI find it fascinating how technical innovations can stir up both serious discussion and humorous nods, like the ham radio operators reference.\nCan this progress reshape real-world applications in speech tech?\n",
-        "image_path": "screenshots/Jargonic_now_achieves_state-of-the-art_performance.png"
+        "tweet": "Gemini 2.5 just raised the bar with an implicit caching update!\n\nThe model now manages caching responses automatically, meaning we no longer have to worry about explicit cache management. This tweak not only boosts performance by reducing redundant computations but also helps cut down latency for repeated requests.\n\nIt\u2019s a clever upgrade that could really streamline how apps interact with these models. Curious to see how this changes the game for developers.",
+        "image_path": "screenshots/Gemini_2_5_just_raised_the.png"
     },
     {
         "index": 17,
-        "tweet": "Announcement: Zed launches Agentic Editing in Zed with advanced AI code editing features!\n\nI find it impressive how this innovation promises to boost coding efficiency. The migration of discussions to Hacker News hints at some strong community debates.\n\nI wonder if this push will outshine current contenders like aider. It's fascinating to see AI reshaping developer workflows and sparking fresh questions about smart tools.\n\nThe potential real-world impact is compelling, and I\u2019m excited about the future possibilities this brings to everyday coding practices.",
+        "tweet": "Curious about the Hypermode Model Router Preview?\n\nIt offers a unified API alternative for accessing both open source and proprietary language models without the hassle of extra signups or API keys. The updated Python API simplifies context management and streamlines experimentation, even if model swapping isn\u2019t a one-size-fits-all for code generation.\n\nI wonder how these flexible features might shift price/performance tradeoffs for developers. This approach might be a game-changer for developers looking to optimize workflows.",
+        "image_path": "screenshots/Curious_about_the_Hypermode_Model.png"
+    },
+    {
+        "index": 18,
+        "tweet": "VerifAI is a cool open-source project that blends generative search with a built-in verification process.\n\nI find it interesting how the framework uses state-of-the-art algorithms to generate potential solutions and then checks them in real time for accuracy\u2014a solid step for applications that demand trust and precision.\n\nThe community-driven approach on GitHub makes it even more exciting, as it opens doors for collaboration and further innovation in automated search and verification systems.",
+        "image_path": "screenshots/VerifAI_is_a_cool_open-source.png"
+    },
+    {
+        "index": 19,
+        "tweet": "Qwen 3 is ushering in a new era for open-source AI!\n\nThe model steps up its game with improved architecture, advanced training efficiency, and a clear pivot towards transparent, community-led development. I'm intrigued by how this shift might democratize innovation and challenge the proprietary norms we've seen so far. What do you think about open-source driving tech forward in ways that benefit everyone?\n\nI'm personally excited to see how community collaborations can reshape the boundaries of AI research and implementation.",
+        "image_path": "screenshots/Qwen_3_is_ushering_in.png"
+    },
+    {
+        "index": 20,
+        "tweet": "Just checked out FLE v0.2.0 \u2013 the Factorio Learning Environment team really upped the game!\n\nThey\u2019ve integrated multi-agent setups with reasoning models and human-in-the-loop evaluations. The new vision and reflection tools promise sharper agent performance in a game that\u2019s notoriously tough for multi-agent research.\n\nSome community chatter suggests it\u2019s a familiar approach, but focusing on Factorio as a research domain adds a unique twist. Excited to see how this evolves over time!",
+        "image_path": "screenshots/Just_checked_out_FLE_v0_2_0.png"
+    },
+    {
+        "index": 21,
+        "tweet": "I just discovered Achilles, an exciting tool that automatically breathes new life into your Python code by rewriting heavy functions in optimized C++.\n\nIt uses LLMs to pinpoint bottlenecks and boost performance by 100\u20131000x in loop-heavy tasks. Imagine speeding up your applications with just one pip install and a single command\u2014no manual hassle!\n\nIt\u2019s a practical game-changer for those looking to squeeze extra performance from existing code.",
+        "image_path": "screenshots/I_just_discovered_Achilles__an.png"
+    },
+    {
+        "index": 22,
+        "tweet": "Interesting move by OpenAI\u2014Instacart CEO Fidji Simo is now steering the applications side, reporting directly to Sam Altman.\n\nThis decision signals a shift towards integrating commerce more deeply into their platform, aiming for an all-encompassing superapp vibe. I\u2019m curious about how these changes will enhance user experience and push competition in the tech landscape.",
         "image_path": null
     }
 ]

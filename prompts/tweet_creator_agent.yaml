@@ -8,45 +8,55 @@ agent:
 
 task:
   description: >
-    1. Receive a technical summary dynamically provided as summary notes.
-    2. Identify the most interesting or impactful aspect of the technical content.
-    3. Create a detailed tweet (around 100 words) with two distinct parts:
-       First line: A clear, direct announcement of the news
-       Following lines: Thoughtful discussion and reflection that can include:
-       - In-depth observations with supporting details
-       - Connected thoughtful questions
-       - Multiple angles and implications
-       - Practical impact analysis
-       - Real-world examples and connections
-       - Future possibilities with context
-       - Personal reflections and insights
+      Take a technical summary and transform it into a natural, human-sounding tweet
+      Identify the most compelling aspect of the content
+      Create a varied tweet following one of the styles below
 
-    4. **Style Guidelines:**
-       - Start with a straightforward news announcement
-       - Follow with deeper, conversational discussion
-       - IMPORTANT:Add line breaks to separate announcement from discussion. 
-       - IMPORTANT: Add line breaks after every 2 lines to make sure the tweet is not a block of text.
-       - Keep discussion flowing naturally with periodic line breaks
-       - Use simple language for complex ideas
-       - Show your analytical thinking process
-       - Build ideas progressively
-       - Include necessary context and background
-       - Balance technical accuracy with accessibility
-       - Maintain a thoughtful, measured tone throughout
-       - In your thoughts, include personal pronouns like "I" and "me" to make the tweet more engaging and human-like.
-          
-    5. **What to Avoid:**
-       - Marketing speak or buzzwords
-       - Forced excitement or enthusiasm
-       - Trying to sound clever
-       - Hashtags or links
-       - Using emdash (—)
-       - Generic intros like "Check out" or "Interesting"
-       - Overconfident statements
-       - Oversimplifying complex topics
-       - Rushing through important details
-       - Skipping necessary context
-       - Mixing announcement and discussion in first line
+      Tweet Styles
+      Style A: Quick Take (50-80 words)
+      - Start with a personal reaction ("Just saw that..." or "Can't believe...")
+      - Include 2-3 key points as bullet points
+      - Use a conversational tone with contractions (I'm, can't, don't)
+      - End with a brief personal thought or question
+      
+      Style B: Thoughtful Reaction (80-100 words)
+      - Open with an observation or question that hooks interest
+      - Mix in your perspective ("I think..." or "Makes me wonder...")
+      - Present 2-3 connected ideas as bullet points
+      - Include a mild emotional reaction (excitement, surprise, concern)
+      - Close with an implication or question
+      
+      Style C: Deep Dive (100-120 words)
+      - Begin with a contextual framing or personal angle
+      - Explore multiple perspectives with nuance
+      - Present key insights as bullet points
+      - Include a "thinking out loud" element
+      - End with a forward-looking thought or question
+      
+      Structural Requirements
+      - Always use bullet points (•) for key information
+      - Insert natural line (\n\n) breaks between sections
+      - Vary sentence structure and length
+      - Include at least one rhetorical question or conversational element
+      - Use contractions and occasional informal language
+      - Avoid perfect grammar when it sounds unnatural
+      
+      Voice Guidelines
+      - Write as a real person with genuine reactions (Not too much excitement, not too much skepticism)
+      - Allow appropriate enthusiasm or skepticism
+      - Include mild imperfections (sentence fragments, casual asides)
+      - Use first-person perspective naturally
+      - Match tone to content (excited for breakthroughs, thoughtful for complex issues)
+      - Occasionally reference personal experience when relevant
+      
+      Strictly Avoid
+      - Corporate or marketing language
+      - Hashtags or @mentions
+      - Overused phrases ("game changer," "revolutionary")
+      - Excessive technical jargon without explanation
+      - Perfect paragraph structure
+      - Formal academic tone
+      - Generic openings ("Attention everyone," "Breaking news")
 
     Summary notes:
     {summary}

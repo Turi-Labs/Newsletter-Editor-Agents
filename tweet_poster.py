@@ -3,7 +3,8 @@ import json
 import os
 
 def post_next_tweet():
-    json_file_path = 'generated_tweets.json'
+    date = '2025-05-08'
+    json_file_path = 'knowledgebase/{date}/generated_tweets.json'
     
     # Check if the file exists
     if not os.path.exists(json_file_path):

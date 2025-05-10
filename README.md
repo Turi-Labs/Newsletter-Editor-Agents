@@ -9,3 +9,7 @@ Newsletter Agent
 - [x] Add links. Write prompt changes in summary agent and newsletter agent
 - [ ] Filter agent is still filtering out some other stuff.
 - [ ] Run from jan 1 to present.
+
+# Twitter Agent Todo
+- [ ] Dynamic style of tweets (not too much, not too less)
+- [ ] Try different sources

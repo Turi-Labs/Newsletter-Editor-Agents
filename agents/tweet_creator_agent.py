@@ -54,7 +54,7 @@ def create_tweet(summary: str) -> str:
     result = crew.kickoff()
     print(result)
     task_output = crew.tasks[0].output
-    print(task_output)
+    # print(task_output)
     # with open('usage_metrics.txt', 'a') as f:
     #     f.write(f"Usage Metrics for Summary Agent:\n")
     #     f.write(str(crew.usage_metrics))

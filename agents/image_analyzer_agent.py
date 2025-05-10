@@ -35,7 +35,8 @@ def image_analyzer(images_path: list[str], tweet: str) -> str:
     ]
 
     # Add images to the content
-    for image_path in images_path:
+    # Only process up to 5 images
+    for image_path in images_path[:3]:
         try:
             # Getting the base64 string
             base64_image = encode_image(image_path)

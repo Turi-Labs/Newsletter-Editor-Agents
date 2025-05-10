@@ -13,34 +13,34 @@ async def take_and_split_screenshot(url, base_output_path="screenshot", mobile=T
             browser = await p.chromium.launch()
             context = await browser.new_context(
                 viewport={"width": 375, "height": 812},
-                device_scale_factor=2.0,
+                device_scale_factor=1.5,
                 is_mobile=mobile,
-                user_agent="Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" if mobile else None
+                user_agent="Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" if mobile else None
             )
             page = await context.new_page()
 
-            print(f"Navigating to {url} in {'mobile' if mobile else 'desktop'} mode...")
+            print(f"Navigating to {url} in {'mobile' if mobile else 'desktop'} mode...\n")
             try:
                 # First try with networkidle but with increased timeout
                 await page.goto(url, wait_until="networkidle", timeout=timeout)
             except Exception as e:
-                print(f"Warning: networkidle timeout ({e}). Falling back to load event...")
+                print(f"Warning: networkidle timeout ({e}). Falling back to load event...\n")
                 # If networkidle times out, fall back to just waiting for the load event
                 await page.goto(url, wait_until="load", timeout=timeout)
                 # Give a little extra time for any remaining resources
                 await page.wait_for_timeout(2000)
 
-            print(f"Taking full screenshot and saving temporarily to {full_screenshot_path}...")
+            # print(f"Taking full screenshot and saving temporarily to {full_screenshot_path}...\n")
             await page.screenshot(path=full_screenshot_path, full_page=True)
-            print("Full screenshot saved.")
+            # print("Full screenshot saved.\n")
 
             # Get viewport height for splitting
             viewport_size = page.viewport_size
             viewport_height = viewport_size['height'] if viewport_size else 812
-            print(f"Using viewport height for splitting: {viewport_height}px")
+            # print(f"Using viewport height for splitting: {viewport_height}px\n")
 
             # Split the screenshot
-            print("Splitting the screenshot into chunks...")
+            # print("Splitting the screenshot into chunks...\n")
             img = Image.open(full_screenshot_path)
             img_width, img_height = img.size
 
@@ -55,18 +55,18 @@ async def take_and_split_screenshot(url, base_output_path="screenshot", mobile=T
                 chunk_path = f"{base_name}_part_{i+1}.png"
                 chunk.save(chunk_path)
                 output_paths.append(chunk_path)
-                print(f"Saved chunk {i+1} to {chunk_path}")
+                # print(f"Saved chunk {i+1} to {chunk_path}\n")
 
             img.close()
 
             # Clean up the temporary full screenshot
             try:
                 os.remove(full_screenshot_path)
-                print(f"Removed temporary file {full_screenshot_path}")
+                # print(f"Removed temporary file {full_screenshot_path}\n")
             except:
-                print(f"Warning: Could not remove temporary file {full_screenshot_path}")
+                print(f"Warning: Could not remove temporary file {full_screenshot_path}\n")
 
-            print("Screenshot splitting complete.")
+            # print("Screenshot splitting complete.")
             return output_paths
 
         except Exception as e:
@@ -84,29 +84,29 @@ async def take_and_split_screenshot(url, base_output_path="screenshot", mobile=T
             if os.path.exists(full_screenshot_path):
                 try:
                     os.remove(full_screenshot_path)
-                    print(f"Removed temporary file: {full_screenshot_path}")
+                    print(f"Removed temporary file: {full_screenshot_path}\n")
                 except OSError as e:
-                    print(f"Error removing temporary file {full_screenshot_path}: {e}")
+                    print(f"Error removing temporary file {full_screenshot_path}: {e}\n")
             if 'browser' in locals() and browser.is_connected():
                 await browser.close()
 
     return output_paths
 
 # # --- How to use it ---
-if __name__ == "__main__":
-    target_url = "https://openai.com/global-affairs/openai-for-countries/"
+# if __name__ == "__main__":
+    # target_url = "https://github.blog/changelog/2025-05-08-openai-gpt-4-1-is-now-generally-available-in-github-copilot-as-the-new-default-model/"
 
-    screenshots_dir = "screenshots"
-    os.makedirs(screenshots_dir, exist_ok=True)
+    # screenshots_dir = "screenshots"
+    # os.makedirs(screenshots_dir, exist_ok=True)
 
-    output_base_name = os.path.join(screenshots_dir, "screenshot")
+    # output_base_name = os.path.join(screenshots_dir, "screenshot")
 
-    # Run the async function
-    created_files = asyncio.run(take_and_split_screenshot(target_url, output_base_name))
+    # # Run the async function
+    # created_files = asyncio.run(take_and_split_screenshot(target_url, output_base_name))
 
-    if created_files:
-        print("\nSuccessfully created screenshot chunks:")
-        for f in created_files:
-            print(f"- {f}")
-    else:
-        print("\nScreenshot generation failed or produced no files.")
+    # if created_files:
+    #     print("\nSuccessfully created screenshot chunks:")
+    #     for f in created_files:
+    #         print(f"- {f}")
+    # else:
+    #     print("\nScreenshot generation failed or produced no files.")

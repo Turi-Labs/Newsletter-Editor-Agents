@@ -11,7 +11,7 @@ from datetime import datetime
 import os
 
 # today = datetime.now().strftime("%d-%m-%Y") # Change this. yyy-mm-dd is the format
-date = "2025-05-07"
+date = "2025-05-08"
 today = date
 base_dir = "knowledgebase"
 
@@ -25,6 +25,8 @@ os.makedirs(screenshots_dir, exist_ok=True)
 output_base_name = os.path.join(screenshots_dir, "screenshot")
 
 research_notes_path = os.path.join(today_dir, "research_notes.md")
+screenshots_dir = os.path.join(today_dir, "screenshots")
+output_json_path = os.path.join(today_dir, "generated_tweets.json")
 
 # print(newsletter_path)
 
@@ -39,6 +41,7 @@ with open(research_notes_path, 'r', encoding='utf-8') as file:
             summaries.append(f"Summary{summary}")
             index += 1
 
+print(index)
 # Post for 30 days continuously and see the results. 10-20 posts a day
 
 
@@ -48,7 +51,7 @@ with open(research_notes_path, 'r', encoding='utf-8') as file:
 
 ## Input: summary index.
 ## Output: JSON containing the tweet and image path.
-def generate_tweet_with_image(index):
+def generate_tweet_with_image(index, screenshots_dir):
     out = create_tweet(summaries[index])
     tweet = out.tweet
 
@@ -72,55 +75,62 @@ def generate_tweet_with_image(index):
 
     if img and os.path.exists(img):
         # Create screenshots directory if it doesn't exist
-        if not os.path.exists("screenshots"):
-            os.makedirs("screenshots")
+        if not os.path.exists(screenshots_dir):
+            os.makedirs(screenshots_dir)
 
-        new_path = f"screenshots/{tweet_filename}.png"
+        new_path = f"{screenshots_dir}/{tweet_filename}.png"
         os.rename(img, new_path)
         image_path = new_path
 
     # Clean up screenshots
-    print("\nStarting Cleanup")
-    screenshot_dir = "screenshots"
-    if os.path.exists(screenshot_dir):
-        for file in os.listdir(screenshot_dir):
+    print("\nStarting Cleanup\n")
+    if os.path.exists(screenshots_dir):
+        for file in os.listdir(screenshots_dir):
             if file.startswith("screenshot"):
-                file_path = os.path.join(screenshot_dir, file)
+                file_path = os.path.join(screenshots_dir, file)
                 if os.path.isfile(file_path):
                     os.remove(file_path)
-
+    print("\nCleanup Complete\n")
     # Return tweet and image path directly
     return tweet, image_path
 
 
-
-def generate_all_tweets(index):
+def generate_all_tweets(index, screenshots_dir, output_json_path):
     results = []
     
     ## TODO: Get the total number of indexes (you may need to adjust this based on your data source)
-    total_indexes = index
+    total_indexes = 4
     
     for index in range(total_indexes):
         try:
-            tweet, image_path = generate_tweet_with_image(index)
+            tweet, image_path = generate_tweet_with_image(index, screenshots_dir)
             results.append({
                 'index': index,
                 'tweet': tweet,
                 'image_path': image_path
             })
-            print(f"Generated tweet {index+1}/{total_indexes}: {tweet[:50]}...")
+            print(f"Generated tweet {index+1}/{total_indexes}\n")
         except Exception as e:
             print(f"Error generating tweet for index {index}: {str(e)}")
     
     # Save results to a file
     import json
-    with open('generated_tweets.json', 'w') as f:
+    with open(output_json_path, 'w') as f:
         json.dump(results, f, indent=2)
     
-    print(f"Generated {len(results)} tweets. Results saved to 'generated_tweets.json'")
+    print(f"Generated {len(results)} tweets. Results saved to '{output_json_path}'\n")
     return results
+
+
+## We have a json file with the tweets and image paths.
+## An agent which will read the json file, change the order, remove duplicates.
+## Output: A json file with the tweets and image paths in the order of posting.def post_planner():
+
+
+
 
 # Generate all tweets
 if __name__ == "__main__":
-    generate_all_tweets(index)
+    print(index)
+    generate_all_tweets(index, screenshots_dir, output_json_path)
 
