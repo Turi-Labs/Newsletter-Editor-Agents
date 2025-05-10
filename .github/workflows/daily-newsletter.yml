@@ -43,6 +43,7 @@ jobs:
           git config --global user.email 'action@github.com'
           git add .
           git commit -m "Add newsletter files for $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
