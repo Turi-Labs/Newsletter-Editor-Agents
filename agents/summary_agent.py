@@ -2,20 +2,29 @@ from crewai import LLM, Agent, Task, Crew
 import os
 import yaml
 from dotenv import load_dotenv
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def load_prompts():
     try:
         with open('prompts/summary_agent.yaml', 'r') as file:
             return yaml.safe_load(file)
     except FileNotFoundError:
+        logger.error("prompts.yaml file not found")
         raise Exception("prompts.yaml file not found")
     except yaml.YAMLError as e:
+        logger.error(f"Error parsing YAML file: {e}")
         raise Exception(f"Error parsing YAML file: {e}")
 
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
+logger.info("API key loaded")
 prompts = load_prompts()
+logger.info("Prompts loaded successfully")
 
 
 llm = LLM(
@@ -26,6 +35,8 @@ llm = LLM(
 )
 
 def generate_summary(content: str, title: str, link: str) -> str:
+    logger.info(f"Generating summary for title: {title}")
+    
     summary_agent = Agent(
         role=prompts['agent']['role'],
         goal=prompts['agent']['goal'],
@@ -45,11 +56,9 @@ def generate_summary(content: str, title: str, link: str) -> str:
         tasks=[summary_task]
     )
     
+    logger.info("Starting crew execution")
     result = crew.kickoff()
-
-    # with open('usage_metrics.txt', 'a') as f:
-    #     f.write(f"Usage Metrics for Summary Agent:\n")
-    #     f.write(str(crew.usage_metrics))
+    logger.info("Crew execution completed")
     
+    logger.info("Summary generation completed")
     return result.tasks_output[0]
-

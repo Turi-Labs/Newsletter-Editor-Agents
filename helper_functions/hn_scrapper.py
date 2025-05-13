@@ -1,10 +1,16 @@
 import requests
 from datetime import datetime, timedelta
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def fetch_hn_posts_by_date(date_str, min_points):
     try:
         target_date = datetime.strptime(date_str, "%Y-%m-%d")
     except ValueError:
+        logger.error(f"Invalid date format provided: {date_str}")
         raise ValueError("Invalid date format. Use 'YYYY-MM-DD'.")
 
     # Calculate start/end timestamps for the 24-hour window
@@ -20,6 +26,7 @@ def fetch_hn_posts_by_date(date_str, min_points):
 
     all_posts = []
     while True:
+        logger.info(f"Fetching page {params['page']} of HN posts")
         response = requests.get(
             "https://hn.algolia.com/api/v1/search_by_date",
             params=params
@@ -37,12 +44,15 @@ def fetch_hn_posts_by_date(date_str, min_points):
             break
         params["page"] = current_page + 1
 
+    logger.info(f"Successfully fetched {len(all_posts)} posts")
     return all_posts
 
 # example: 2025-03-20
 def write_hn_posts(date: str, p: int, filename: str):
+    logger.info(f"Starting to fetch and write HN posts for date: {date}")
     posts = fetch_hn_posts_by_date(date, min_points=p)
 
+    logger.info(f"Writing {len(posts)} posts to {filename}")
     with open(filename, "w") as f:
         for post in posts:
             title = post.get("title", "No Title")
@@ -60,3 +70,5 @@ def write_hn_posts(date: str, p: int, filename: str):
         
         f.write("end")
         f.write(f"\nTotal number of posts: {len(posts)}")
+    
+    logger.info(f"Successfully wrote posts to {filename}")

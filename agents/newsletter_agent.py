@@ -3,6 +3,11 @@ import os
 import yaml
 from dotenv import load_dotenv
 import markdown
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def load_prompts():
     try:
@@ -13,16 +18,9 @@ def load_prompts():
     except yaml.YAMLError as e:
         raise Exception(f"Error parsing YAML file: {e}")
 
-
-
-
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 prompts = load_prompts()
-
-
-
-
 
 llm = LLM(
     model="openai/o3-mini",
@@ -50,19 +48,15 @@ def craft_newsletter(research_notes: str, filepath: str):
         agents=[newsletter_writer],
         tasks=[newsletter_task]
     )
-    print("Kick off crew")
+    logger.info("Starting crew execution")
     result = crew.kickoff()
-    print(result)
-    # print(result.tasks_output[0])
-    # with open('usage_metrics.txt', 'a') as f:
-    #     f.write(f"Usage Metrics for Newsletter Agent:\n")
-    #     f.write(str(crew.usage_metrics))
+    logger.info(result)
     
     # Write the newsletter content to a file
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(str(result.tasks_output[0]))    
     
-    print("Written in filepath")
+    logger.info(f"Newsletter content written to {filepath}")
 
     # Extract the date from filepath
     date = filepath.split('/')[1]
@@ -76,15 +70,10 @@ def craft_newsletter(research_notes: str, filepath: str):
     html_content = markdown.markdown(newsletter)    
 
     # Write the newsletter content to a file
-    print("Write the files")
-    print(f"Opening file: newsletter/{date}.md for writing")
+    logger.info(f"Writing HTML content to newsletter/{date}.md")
     with open(f"newsletter/{date}.md", 'w', encoding='utf-8') as f:
-        print(f"Writing HTML content to newsletter/{date}.md")
         f.write(html_content)
-    print(f"Successfully wrote content to newsletter/{date}.md") 
+    logger.info(f"Successfully wrote content to newsletter/{date}.md")
         
-    
-    print("Return the crew")
+    logger.info("Newsletter generation completed")
     return result.tasks_output[0]
-
-

@@ -34,14 +34,14 @@ def send_newsletter(html_path: str, subject: str):
     email = sib_api_v3_sdk.SendSmtpEmail(
         sender={"email": "newsletter@turilabs.tech", "name": "Turi Labs"},
         to=[
-            {"email": "taddishetty24@gmail.com", "name": "rcp1"}
-            # {"email": "iamsid0011@gmail.com", "name": "rcp2"},
-            # {"email": "supratikkar2003@gmail.com", "name": "rcp3"},
-            # {"email": "mayankrm2003@gmail.com", "name": "rcp4"},
-            # {"email": "dhatri.c22@gmail.com", "name": "rcp5"}
+            {"email": "taddishetty24@gmail.com", "name": "rcp1"},
+            {"email": "iamsid0011@gmail.com", "name": "rcp2"},
+            {"email": "supratikkar2003@gmail.com", "name": "rcp3"},
+            {"email": "mayankrm2003@gmail.com", "name": "rcp4"},
+            {"email": "dhatri.c22@gmail.com", "name": "rcp5"}
         ],
         subject=subject,
-        html_content=content,  # Consider converting Markdown to HTML if needed
+        html_content=content,
         headers={
             "List-Unsubscribe": "<mailto:unsubscribe@turilabs.tech>",
             "Precedence": "bulk",

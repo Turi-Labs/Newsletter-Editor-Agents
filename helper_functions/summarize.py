@@ -1,5 +1,10 @@
 from agents.summary_agent import generate_summary
 from helper_functions.web_scrapper import extract_main_content
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Write code to extract all links
 def extract_links_from_results(content):
@@ -31,20 +36,20 @@ def extract_links_from_results(content):
     return links
 
 def get_links(filename: str):
+    logger.info(f"Reading links from file: {filename}")
     with open(filename, 'r') as file:
         content = file.read()
     # Get the links
     extracted_links = extract_links_from_results(content)
-    # print(extracted_links)
+    logger.info(f"Extracted {len(extracted_links)} links from file")
     return extracted_links
 
 # Send links to the extract method
 def get_link_content(extracted_links):
     content = []
     for title, hn_link, link in extracted_links:
-        print(link)
+        logger.info(f"Extracting content from link: {link}")
         c = extract_main_content(hn_link)
-        # print(c)
         content.append((title, c, link))
     return content
 
@@ -52,7 +57,7 @@ def get_link_content(extracted_links):
 def send_to_ai(content):
     summaries = []
     for title, text, link in content:
+        logger.info(f"Generating summary for: {title}")
         summary = generate_summary(text, title, link)
         summaries.append(summary)
     return summaries
-

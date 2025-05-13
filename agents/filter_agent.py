@@ -4,6 +4,11 @@ from crewai import LLM, Agent, Task, Crew
 import os
 import yaml
 from dotenv import load_dotenv
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def load_prompts():
     try:
@@ -14,8 +19,9 @@ def load_prompts():
     except yaml.YAMLError as e:
         raise Exception(f"Error parsing YAML file: {e}")
 
-load_dotenv()
+load_dotenv(override=True)
 api_key = os.getenv("OPENAI_API_KEY")
+logger.info(f"Using API key")
 prompts = load_prompts()
 
 llm = LLM(
@@ -54,16 +60,8 @@ def run(input):
     
     results = crew.kickoff()
     
-    print(results)
+    logger.info(results)
 
     agent1 = results.tasks_output[0]
-    # print(type(agent1))
-    # with open('usage_metrics.txt', 'a') as f:
-    #     f.write(f"Usage Metrics for Filter Agent:\n")
-    #     f.write(str(crew.usage_metrics))
     
-    # Print task outputs
-    print("Task 1 Output:", agent1)
-    # print(crew.usage_metrics)
     return str(agent1)
-

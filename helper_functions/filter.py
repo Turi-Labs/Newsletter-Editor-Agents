@@ -1,17 +1,13 @@
 import re
 from typing import List, Dict
 from agents.filter_agent import run
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def parse_hn_posts(file_path: str) -> List[Dict[str, str]]:
-    """
-    Parse the Hacker News posts from a text file.
-    
-    Args:
-        file_path: Path to the file containing HN posts
-        
-    Returns:
-        List of dictionaries containing post information
-    """
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
     
@@ -46,15 +42,6 @@ def parse_hn_posts(file_path: str) -> List[Dict[str, str]]:
     return posts
 
 def format_post(post: Dict[str, str]) -> str:
-    """
-    Format a post dictionary into a string for processing.
-    
-    Args:
-        post: Dictionary containing post information
-        
-    Returns:
-        Formatted string representation of the post
-    """
     return f"""Title: {post.get('title', '')}
             Story URL: {post.get('story_url', '')}
             Hacker News Post URL: {post.get('hn_url', '')}
@@ -65,10 +52,10 @@ def process_posts(file_path: str) -> List[str]:
     posts = parse_hn_posts(file_path)
     results = []
     
-    print(f"Found {len(posts)} posts to process")
+    logger.info(f"Found {len(posts)} posts to process")
     
     for i, post in enumerate(posts):
-        print(f"Processing post {i+1}/{len(posts)}: {post.get('title', '')[:50]}...")
+        logger.info(f"Processing post {i+1}/{len(posts)}: {post.get('title', '')[:50]}...")
         formatted_post = format_post(post)
         result = run(formatted_post)
         results.append({
@@ -78,7 +65,7 @@ def process_posts(file_path: str) -> List[str]:
             'hn_url': post.get('hn_url', ''),
             'is_ai_related': 'True' in result  # Simple check if the result contains 'True'
         })
-        print(f"Result: {result}\n")
+        logger.info(f"Result: {result}\n")
     
     return results
 
@@ -106,13 +93,13 @@ def filter(input_file: str, output_file: str):
     try:
         results = process_posts(input_file)
         save_results(results, output_file)
-        print(f"Analysis complete! Results saved to {output_file}")
+        logger.info(f"Analysis complete! Results saved to {output_file}")
         
         # Print summary
         ai_related = sum(1 for r in results if r.get('is_ai_related', False))
-        print(f"\nSummary:")
-        print(f"Total posts analyzed: {len(results)}")
-        print(f"AI-related posts: {ai_related} ({ai_related/len(results)*100:.1f}%)")
+        logger.info(f"\nSummary:")
+        logger.info(f"Total posts analyzed: {len(results)}")
+        logger.info(f"AI-related posts: {ai_related} ({ai_related/len(results)*100:.1f}%)")
         
     except Exception as e:
-        print(f"Error processing posts: {e}")
+        logger.error(f"Error processing posts: {e}")
