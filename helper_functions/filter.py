@@ -1,6 +1,6 @@
 import re
 from typing import List, Dict
-from agents.filter_agent import run
+from ai_agents.filter_agent import run
 import logging
 
 # Configure logging

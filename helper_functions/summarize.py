@@ -1,4 +1,4 @@
-from agents.summary_agent import generate_summary
+from ai_agents.summary_agent import generate_summary
 from helper_functions.web_scrapper import extract_main_content
 import logging
 

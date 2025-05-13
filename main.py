@@ -1,7 +1,7 @@
 from helper_functions.hn_scrapper import write_hn_posts
 from helper_functions.filter import filter
 from helper_functions.summarize import *
-from agents.newsletter_agent import craft_newsletter
+from ai_agents.newsletter_agent import craft_newsletter
 from datetime import datetime, timedelta
 import os
 import logging
@@ -10,8 +10,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# today = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-today = "2025-05-9"
+today = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+# today = "2025-05-12"
 
 base_dir = "knowledgebase"
 
