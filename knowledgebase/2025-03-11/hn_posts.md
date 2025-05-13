@@ -1,3 +1,465 @@
+Title: CA prisons are using virtual reality to help people in solitary confinement
+Story URL: https://www.theguardian.com/technology/2025/mar/08/vr-prison-california
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338415
+Points: 5
+Comments: 3
+----------------------------------------
+Title: Sorting algorithms with CUDA
+Story URL: https://ashwanirathee.com/blog/2025/sort2/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338405
+Points: 150
+Comments: 41
+----------------------------------------
+Title: Is It Constitutional to Deport Immigrants for Political Speech?
+Story URL: https://reason.com/2025/03/10/is-it-constitutional-to-deport-immigrants-for-political-speech/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338319
+Points: 16
+Comments: 2
+----------------------------------------
+Title: Let's Make a Space Shooter with Nintendo Family Basic
+Story URL: https://www.leadedsolder.com/2025/03/11/family-basic-space-arcade-game-programming.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338286
+Points: 9
+Comments: 0
+----------------------------------------
+Title: Giving blood frequently may make your blood cells healthier
+Story URL: https://www.newscientist.com/article/2471573-giving-blood-frequently-may-make-your-blood-cells-healthier/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338280
+Points: 6
+Comments: 2
+----------------------------------------
+Title: British tourist in custody at Tacoma ICE detention center for weeks
+Story URL: https://www.seattletimes.com/seattle-news/british-tourist-in-custody-at-tacoma-ice-detention-center-for-weeks/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338267
+Points: 14
+Comments: 0
+----------------------------------------
+Title: Picol: A Tcl interpreter in 500 lines of code
+Story URL: https://github.com/antirez/picol
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338219
+Points: 5
+Comments: 0
+----------------------------------------
+Title: Balcony solar gains unanimous bipartisan support in Utah – pv magazine USA
+Story URL: https://pv-magazine-usa.com/2025/03/05/balcony-solar-gains-unanimous-bipartisan-support-in-utah/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338181
+Points: 5
+Comments: 1
+----------------------------------------
+Title: Aliens Have Due Process Rights
+Story URL: https://gideons.substack.com/p/aliens-have-due-process-rights
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338141
+Points: 13
+Comments: 0
+----------------------------------------
+Title: Judge Uses D&D's Failure to Make Him Satanist to School Florida on Moral Panics
+Story URL: https://www.techdirt.com/2025/03/11/judge-uses-dds-failure-to-make-him-worship-satan-to-school-florida-on-social-media-moral-panics/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338127
+Points: 19
+Comments: 5
+----------------------------------------
+Title: Strengthening Our Policies on Affiliate Programs in Chrome Extensions
+Story URL: https://developer.chrome.com/docs/webstore/program-policies/affiliate-ads-faq
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338083
+Points: 14
+Comments: 2
+----------------------------------------
+Title: Email tells USAID workers to destroy classified docs, court asked to intervene
+Story URL: https://apnews.com/article/usaid-trump-burn-order-shred-classified-documents-f042a51c0a9f74c96b0259b51a0d4a83
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338078
+Points: 29
+Comments: 13
+----------------------------------------
+Title: Empathy Gap
+Story URL: https://en.wikipedia.org/wiki/Empathy_gap
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338065
+Points: 5
+Comments: 0
+----------------------------------------
+Title: Grafana OnCall has entered read-only, maintenance mode as of today
+Story URL: https://grafana.com/blog/2025/03/11/oncall-management-incident-response-grafana-cloud-irm/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338055
+Points: 8
+Comments: 4
+----------------------------------------
+Title: Southwest Airlines to End Free Checked Bags for First Time in 54-Year History
+Story URL: https://www.cbsnews.com/news/southwest-airlines-ending-free-checked-bags-policy-many-passengers/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43338025
+Points: 8
+Comments: 0
+----------------------------------------
+Title: We've hit a rate limit with Anthropic
+Story URL: https://forum.cursor.com/t/weve-hit-a-rate-limit-with-anthropic/61945
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337869
+Points: 11
+Comments: 1
+----------------------------------------
+Title: Record Judgement Against HOA, $1.8MM, in Santa Clara Suit over Abandoned Well
+Story URL: https://www.msn.com/en-us/society-culture-and-history/social-issues/award-in-santa-clara-hoa-lawsuit-is-largest-ever-in-california-after-extensive-deception-over-abandoned-well-under-condo/ar-AA1ADNt5
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337794
+Points: 5
+Comments: 0
+----------------------------------------
+Title: Jeff Bezos brings Amazon work culture to Blue Origin
+Story URL: https://arstechnica.com/space/2025/03/jeff-bezos-brings-amazon-work-culture-to-blue-origin/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337760
+Points: 5
+Comments: 1
+----------------------------------------
+Title: The Startup CTO's Handbook
+Story URL: https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337703
+Points: 649
+Comments: 206
+----------------------------------------
+Title: 'A new phase': why climate activists are turning to sabotage instead of protest
+Story URL: https://www.theguardian.com/environment/2025/mar/08/a-new-phase-why-climate-activists-are-turning-to-sabotage-instead-of-protest
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337676
+Points: 13
+Comments: 0
+----------------------------------------
+Title: Git beta is now publicly available to everyone on Zed Preview
+Story URL: https://zed.dev/releases/preview/0.177.7
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337418
+Points: 7
+Comments: 1
+----------------------------------------
+Title: /Tea/: An Image Board Open for Only Two Hours a Day
+Story URL: https://chakai.org/tea/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337373
+Points: 6
+Comments: 0
+----------------------------------------
+Title: IBM EGA 8x14
+Story URL: https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_ega_8x14
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337363
+Points: 7
+Comments: 1
+----------------------------------------
+Title: Our Small ML Team Beat OpenAI and Anthropic in a Specialized Domain [pdf]
+Story URL: https://digits.com/_assets/downloads/beyond-the-hype-evaluating-llms-vs-digits-agl.pdf
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337350
+Points: 15
+Comments: 2
+----------------------------------------
+Title: Trump ends Fauci security detail, he'd feel no responsibility if harm befell him
+Story URL: https://apnews.com/article/fauci-trump-security-detail-4b2e317dc9e7768c0571df30750e863a
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337288
+Points: 22
+Comments: 4
+----------------------------------------
+Title: Pirates, Privateers, and Cartels: Why Profit-Driven Policing Backfires
+Story URL: https://www.lawfaremedia.org/article/pirates--privateers--and-cartels--why-profit-driven-policing-backfires
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337264
+Points: 5
+Comments: 2
+----------------------------------------
+Title: Trump administration slashes division in charge of 26,000 U.S. artworks
+Story URL: https://www.washingtonpost.com/entertainment/art/2025/03/11/gsa-fine-arts-layoffs-trump/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337262
+Points: 17
+Comments: 7
+----------------------------------------
+Title: Francis Crick – The Recent Excitement About Neural Networks [pdf] (1989)
+Story URL: https://apsc450computationalneuroscience.wordpress.com/wp-content/uploads/2019/01/crick1989.pdf
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337257
+Points: 5
+Comments: 0
+----------------------------------------
+Title: Are Family Vloggers Leaving California to Avoid Paying Their Kids?
+Story URL: https://www.vulture.com/article/family-vloggers-california-child-labor-laws.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337230
+Points: 5
+Comments: 3
+----------------------------------------
+Title: Unix Needs a True Integrated Environment: CASE Closed (1989) [pdf]
+Story URL: http://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-89-4_UNIX_Needs_A_True_Integrated_Environment.pdf
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337220
+Points: 40
+Comments: 26
+----------------------------------------
+Title: Inside Google's Investment in the A.I. Startup Anthropic
+Story URL: https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337209
+Points: 6
+Comments: 1
+----------------------------------------
+Title: The U.K. Pivot to AI Is Doomed from the Start
+Story URL: https://foreignpolicy.com/2025/03/10/ai-uk-starmer-opportunities-plan/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337178
+Points: 7
+Comments: 2
+----------------------------------------
+Title: Apple patches 0-day exploited in "sophisticated attack"
+Story URL: https://arstechnica.com/security/2025/03/apple-patches-0-day-exploited-in-extremely-sophisticated-attack/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337153
+Points: 11
+Comments: 1
+----------------------------------------
+Title: Saturn Gains 128 New Moons, Bringing Its Total to 274
+Story URL: https://www.nytimes.com/2025/03/11/science/saturn-new-moons.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337151
+Points: 33
+Comments: 5
+----------------------------------------
+Title: Airtel, Starlink announce India deal weeks after Musk met Modi
+Story URL: https://restofworld.org/2025/airtel-starlink-india-deal-modi-musk/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337145
+Points: 7
+Comments: 0
+----------------------------------------
+Title: Volkswagen enjoys surprise bestseller amid financial woes: the VW currywurst
+Story URL: https://www.theguardian.com/world/2025/mar/11/volkswagen-enjoys-surprise-best-seller-amid-financial-woes-the-vw-currywurst
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337144
+Points: 6
+Comments: 1
+----------------------------------------
+Title: Desperate rich people to fund drug research
+Story URL: https://www.theguardian.com/news/2025/mar/11/plutocratic-proposal-life-saving-drugs-lack-of-funding-desparate-rich-people
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337113
+Points: 20
+Comments: 0
+----------------------------------------
+Title: The first wi-fi earbuds are here
+Story URL: https://www.whathifi.com/headphones/wireless-earbuds/the-worlds-first-wi-fi-earbuds-are-here-but-theres-a-catch
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337108
+Points: 5
+Comments: 2
+----------------------------------------
+Title: Privacy and the :visited selector
+Story URL: https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337069
+Points: 14
+Comments: 0
+----------------------------------------
+Title: Pakistan Separatists Hijack Train with 400 Onboard and Give Ultimatum
+Story URL: https://www.nytimes.com/2025/03/11/world/asia/pakistan-balochistan-train-hijacking.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337052
+Points: 7
+Comments: 0
+----------------------------------------
+Title: Trump burnishes Tesla at White House in show of support for Musk
+Story URL: https://www.france24.com/en/live-news/20250311-trump-burnishes-tesla-at-white-house-in-show-of-support-for-musk
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337049
+Points: 26
+Comments: 16
+----------------------------------------
+Title: Ask HN: How do you have effective 1:1s with your manager?
+Story URL: No URL
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337028
+Points: 69
+Comments: 107
+----------------------------------------
+Title: Bcachefs: Better handling of checksum errors/bitrot
+Story URL: https://lore.kernel.org/linux-bcachefs/20250311201518.3573009-1-kent.overstreet@linux.dev/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43337017
+Points: 9
+Comments: 3
+----------------------------------------
+Title: The Staff+ Performance Cliff
+Story URL: https://sylormiller.com/posts/2025/staff-plus-cliff/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336920
+Points: 10
+Comments: 0
+----------------------------------------
+Title: NTSB says DCA midair collision part of 'serious safety issue'
+Story URL: https://www.npr.org/2025/03/11/nx-s1-5324543/ntsb-dca-mid-air-collision-american-black-hawk
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336903
+Points: 6
+Comments: 1
+----------------------------------------
+Title: Show HN: Metacheck – preview how any link appears on social media and chat apps
+Story URL: https://metacheck.appstate.co/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336892
+Points: 165
+Comments: 47
+----------------------------------------
+Title: Appeal to aithority
+Story URL: https://blog.ploeh.dk/2025/03/10/appeal-to-aithority/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336883
+Points: 6
+Comments: 0
+----------------------------------------
+Title: India's Battle to Control the Democracy Narrative
+Story URL: https://www.theplankmag.com/india-democracy-narrative
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336872
+Points: 71
+Comments: 103
+----------------------------------------
+Title: Maxwell was more than 40 years ahead of Einstein
+Story URL: https://eladelantado.com/news/photons-sinha-maxwell-einstein/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336871
+Points: 7
+Comments: 0
+----------------------------------------
+Title: New anti-obesity drugs outperform Ozempic
+Story URL: https://english.elpais.com/health/2025-03-07/new-anti-obesity-drugs-already-outperform-ozempic.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336743
+Points: 10
+Comments: 3
+----------------------------------------
+Title: Only seven countries met WHO air quality standards in 2024, data shows
+Story URL: https://www.reuters.com/business/healthcare-pharmaceuticals/only-seven-countries-met-who-air-quality-standards-2024-data-shows-2025-03-11/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336720
+Points: 7
+Comments: 1
+----------------------------------------
+Title: Inside Waymo's Expansion: Cars, New Depots, and What's Next
+Story URL: https://autonomycentral.net/inside-waymos-expansion-thousands-of-cars-new-depots-and-whats-next/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336715
+Points: 10
+Comments: 1
+----------------------------------------
+Title: Soft-Launching and Open Sourcing the Have I Been Pwned Rebrand
+Story URL: https://www.troyhunt.com/soft-launching-and-open-sourcing-the-have-i-been-pwned-rebrand/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336613
+Points: 5
+Comments: 0
+----------------------------------------
+Title: Mayo Clinic's secret weapon against AI hallucinations: Reverse RAG in action
+Story URL: https://venturebeat.com/ai/mayo-clinic-secret-weapon-against-ai-hallucinations-reverse-rag-in-action/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336609
+Points: 187
+Comments: 80
+----------------------------------------
+Title: What's behind the recent string of failures and delays at SpaceX?
+Story URL: https://arstechnica.com/space/2025/03/after-years-of-acceleration-has-spacex-finally-reached-its-speed-limit/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336440
+Points: 11
+Comments: 0
+----------------------------------------
+Title: "It has been determined" that infected dairy herd serology can be disclosed
+Story URL: https://hogvet51.substack.com/p/one-year-later-it-has-been-determined
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336381
+Points: 61
+Comments: 39
+----------------------------------------
+Title: Ask HN: 2x Arc A770 or 1x Radeon 7900 XTX for llama.cpp
+Story URL: No URL
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336272
+Points: 5
+Comments: 5
+----------------------------------------
+Title: EU-US data deal may be dead in the water
+Story URL: https://www.simpleanalytics.com/blog/the-eu-us-data-deal-is-dead-in-the-water-as-trump-weakens-oversight
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336243
+Points: 7
+Comments: 0
+----------------------------------------
+Title: Ransomware malware targeting Linux Desktop users spotted in the wild
+Story URL: https://github.com/evilsocket/opensnitch/discussions/1290
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336153
+Points: 12
+Comments: 2
+----------------------------------------
+Title: AI fakers exposed in tech dev recruitment
+Story URL: https://newsletter.pragmaticengineer.com/p/ai-fakers
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336112
+Points: 13
+Comments: 7
+----------------------------------------
+Title: Why your old Warner Bros. DVDs aren't playable anymore – and a potential fix
+Story URL: https://www.zdnet.com/home-and-office/home-entertainment/why-your-old-warner-bros-dvds-arent-playable-anymore-and-potential-fix/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336100
+Points: 12
+Comments: 0
+----------------------------------------
+Title: Do We Age Steadily, or in Bursts?
+Story URL: https://www.nytimes.com/2025/03/06/well/nonlinear-aging.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336079
+Points: 5
+Comments: 1
+----------------------------------------
+Title: TP-Link routers have been infected by a botnet to spread malware
+Story URL: https://www.tomsguide.com/computing/malware-adware/thousands-of-tp-link-routers-have-been-infected-by-a-botnet-to-spread-malware
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336067
+Points: 12
+Comments: 3
+----------------------------------------
+Title: Speaking Things into Existence
+Story URL: https://www.oneusefulthing.org/p/speaking-things-into-existence
+Hacker News Post URL: https://news.ycombinator.com/item?id=43336062
+Points: 8
+Comments: 1
+----------------------------------------
+Title: What Bikini Atoll Looks Like Today (2017)
+Story URL: https://medium.com/stanford-magazine/stanford-research-on-effects-of-radioactivity-from-bikini-atoll-nuclear-tests-on-coral-and-crab-dna-48459144020c
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335987
+Points: 182
+Comments: 97
+----------------------------------------
+Title: USDA cancels $1B in local food purchasing for schools, food banks
+Story URL: https://www.politico.com/news/2025/03/10/usda-cancels-local-food-purchasing-for-schools-food-banks-00222796
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335983
+Points: 33
+Comments: 10
+----------------------------------------
+Title: Fridgeditions Demo "Children's Art the World Can Enjoy"
+Story URL: https://www.fridgeditions.com/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335956
+Points: 6
+Comments: 4
+----------------------------------------
+Title: The ninetysomethings who revolutionized how we think about strength training
+Story URL: https://www.theguardian.com/wellness/2025/mar/11/older-adults-strength-training
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335901
+Points: 10
+Comments: 1
+----------------------------------------
+Title: Welcome to the Zero Sum Era. Now How Do We Get Out?
+Story URL: https://www.nytimes.com/2025/03/01/world/asia/trump-zero-sum-world.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335840
+Points: 53
+Comments: 34
+----------------------------------------
+Title: Dario Amodei: "In 12 months, nearly all code may be generated by AI."
+Story URL: https://twitter.com/slow_developer/status/1899430284350616025
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335829
+Points: 6
+Comments: 10
+----------------------------------------
+Title: Understanding Memory Management, Part 3: C++ Smart Pointers
+Story URL: https://educatedguesswork.org/posts/memory-management-3/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335808
+Points: 5
+Comments: 0
+----------------------------------------
+Title: Allstate Insurance sued for delivering personal info in plaintext, to anyone
+Story URL: https://www.theregister.com/2025/03/10/allstate_sued_pii_exposure/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335785
+Points: 8
+Comments: 1
+----------------------------------------
+Title: Why Every Programming Language Sucks at Error Handling
+Story URL: https://blog.aiono.dev/posts/why-every-programming-language-sucks-at-error-handling---part-1.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335740
+Points: 14
+Comments: 13
+----------------------------------------
+Title: Percolation Theory [pdf]
+Story URL: https://web.mit.edu/ceder/publications/Percolation.pdf
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335695
+Points: 68
+Comments: 12
+----------------------------------------
+Title: How do we tell truths that might hurt? (1975)
+Story URL: https://www.cs.virginia.edu/~evans/cs655/readings/ewd498.html
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335679
+Points: 76
+Comments: 54
+----------------------------------------
+Title: Ask HN: Would you reapply to a company that ghosted you?
+Story URL: No URL
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335656
+Points: 13
+Comments: 27
+----------------------------------------
+Title: Truth Functional Logic for Hackers
+Story URL: https://lagomor.ph/2025/02/truth-functional-logic-for-hackers-part-one/
+Hacker News Post URL: https://news.ycombinator.com/item?id=43335586
+Points: 48
+Comments: 14
+----------------------------------------
 Title: Why data on the economy doesn't match our feelings
 Story URL: https://www.marketplace.org/2025/03/10/economic-data-feelings-disconnect/
 Hacker News Post URL: https://news.ycombinator.com/item?id=43335574
@@ -1390,455 +1852,5 @@ Hacker News Post URL: https://news.ycombinator.com/item?id=43327638
 Points: 27
 Comments: 20
 ----------------------------------------
-Title: Ask HN: How to deal with last-minute changes by team lead derailing deadlines?
-Story URL: No URL
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327611
-Points: 6
-Comments: 12
-----------------------------------------
-Title: Microplastics Are Messing with Photosynthesis in Plants
-Story URL: https://www.scientificamerican.com/article/microplastic-pollution-is-messing-with-photosynthesis-in-plants/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327536
-Points: 17
-Comments: 3
-----------------------------------------
-Title: Kia Trolls Tesla with Anti-Elon Ads
-Story URL: https://insideevs.com/news/753045/tesla-kia-anti-elon-ads/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327533
-Points: 49
-Comments: 23
-----------------------------------------
-Title: Liu Jiakun Receives the 2025 Pritzker Architecture Prize
-Story URL: https://www.pritzkerprize.com/laureates/liu-jiakun
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327506
-Points: 53
-Comments: 39
-----------------------------------------
-Title: Billionaires at Trump's Swearing-In Have Since Lost $209B (alt link in comments)
-Story URL: https://www.bloomberg.com/news/articles/2025-03-10/billionaires-at-trump-s-swearing-in-have-since-lost-200-billion
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327415
-Points: 29
-Comments: 16
-----------------------------------------
-Title: A 19yo woman graduated from high school with honors even though she can't read
-Story URL: https://www.ky3.com/2025/02/28/former-high-school-honors-student-who-says-she-cant-read-write-sues-district-where-she-graduated/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327395
-Points: 18
-Comments: 23
-----------------------------------------
-Title: Certificate will expire on 14 March – update Firefox to prevent add-on breakage
-Story URL: https://blog.mozilla.org/addons/2025/03/10/root-certificate-will-expire-on-14-march-users-need-to-update-firefox-to-prevent-add-on-breakage/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327393
-Points: 36
-Comments: 24
-----------------------------------------
-Title: US unveils new app for 'self-deportations'
-Story URL: https://www.bbc.com/news/articles/c7430kq7eyxo
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327362
-Points: 16
-Comments: 8
-----------------------------------------
-Title: The Unpredicted
-Story URL: https://kk.org/thetechnium/the-unpredicted/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327340
-Points: 6
-Comments: 1
-----------------------------------------
-Title: Show HN: Chrome Extension for ChatGPT to organize conversations into folders
-Story URL: https://chatgpt-folders.netlify.app/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327230
-Points: 13
-Comments: 2
-----------------------------------------
-Title: You suck at CSS and that's okay (2022)
-Story URL: https://rexriepe.com/yousuckatcss/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327155
-Points: 41
-Comments: 65
-----------------------------------------
-Title: US Green-Card Holder and Columbia Student Arrested by ICE for Protest
-Story URL: https://www.reuters.com/world/us/us-authorities-arrest-palestinian-student-protester-columbia-university-students-2025-03-09/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327071
-Points: 128
-Comments: 20
-----------------------------------------
-Title: Bill Bryson: Too many people publishing their own books
-Story URL: https://www.thetimes.com/uk/arts/article/bill-bryson-too-many-people-publishing-their-own-books-wdrmf6g5c
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327037
-Points: 9
-Comments: 2
-----------------------------------------
-Title: What's gone wrong at Musk's Tesla? Share price has plunged, could fall further
-Story URL: https://news.sky.com/story/teslas-share-price-losing-streak-is-musks-trump-role-distracting-him-from-his-day-job-of-running-ev-maker-13325824
-Hacker News Post URL: https://news.ycombinator.com/item?id=43327013
-Points: 16
-Comments: 3
-----------------------------------------
-Title: The shrouded sinister history of the bulldozer
-Story URL: https://www.noemamag.com/the-shrouded-sinister-history-of-the-bulldozer/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326982
-Points: 78
-Comments: 64
-----------------------------------------
-Title: North Sea tanker collision – what we know so far
-Story URL: https://www.bbc.co.uk/news/articles/c62z9ee68y6o
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326902
-Points: 7
-Comments: 4
-----------------------------------------
-Title: Germany concerned over F-35 'kill switch' amid US policy shifts
-Story URL: https://eutoday.net/germany-concerned-over-f-35-kill-switch/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326883
-Points: 51
-Comments: 37
-----------------------------------------
-Title: Iroh – P2P that just works
-Story URL: https://www.iroh.computer/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326879
-Points: 40
-Comments: 6
-----------------------------------------
-Title: Trump's Call to Scrap 'Horrible' Chip Program Spreads Panic
-Story URL: https://www.nytimes.com/2025/03/10/technology/trump-chips-act.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326823
-Points: 35
-Comments: 2
-----------------------------------------
-Title: Should Zimbardo's Stanford Prison Experiment Be Retracted?
-Story URL: https://retractionwatch.com/2025/03/10/guest-post-should-zimbardos-stanford-prison-experiment-be-retracted/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326770
-Points: 7
-Comments: 0
-----------------------------------------
-Title: Hiring at Harvard University paused due to 'shifting federal policies'
-Story URL: https://www.upi.com/Top_News/US/2025/03/10/Harvard-hiring-freeze-Trump-administration-Columbia/3821741625704/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326751
-Points: 10
-Comments: 0
-----------------------------------------
-Title: Bending Spoons lay off more than 85% of Brightcove staff after acquisition
-Story URL: No URL
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326746
-Points: 9
-Comments: 16
-----------------------------------------
-Title: Leningrad-1: a 44-IC Soviet style ZX-Spectrum clone
-Story URL: https://alex-j-lowry.github.io/leningrd.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326554
-Points: 13
-Comments: 0
-----------------------------------------
-Title: Where Jeff Bezos Went Wrong with the Washington Post
-Story URL: https://www.axios.com/2025/03/10/washington-post-to-overhaul-newsroom-structure
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326549
-Points: 6
-Comments: 2
-----------------------------------------
-Title: Microplastics hinder plant photosynthesis, study finds
-Story URL: https://www.theguardian.com/environment/2025/mar/10/microplastics-hinder-plant-photosynthesis-study-finds-threatening-millions-with-starvation
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326509
-Points: 9
-Comments: 0
-----------------------------------------
-Title: BYD to launch 1000V platform with 5C charging in mid-March
-Story URL: https://carnewschina.com/2025/03/04/byd-to-launch-1000v-platform-with-5c-charging-in-mid-march-report-says/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326466
-Points: 9
-Comments: 1
-----------------------------------------
-Title: Why is nuclear fusion so hard? (2018)
-Story URL: http://blog.sigfpe.com/2018/12/why-is-nuclear-fusion-so-hard.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326434
-Points: 24
-Comments: 2
-----------------------------------------
-Title: US exits fund that compensates poorer countries for global heating
-Story URL: https://www.theguardian.com/us-news/2025/mar/07/us-exits-fund-that-compensates-poorer-countries-for-global-heating
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326431
-Points: 11
-Comments: 0
-----------------------------------------
-Title: Musk Calls Entitlements the 'Big One' to Cut, Countering Trump
-Story URL: https://www.bloomberg.com/news/articles/2025-03-10/musk-calls-entitlements-the-big-one-to-cut-countering-trump
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326393
-Points: 22
-Comments: 8
-----------------------------------------
-Title: What made the Irish famine so deadly
-Story URL: https://www.newyorker.com/magazine/2025/03/17/rot-padraic-x-scanlan-book-review
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326275
-Points: 319
-Comments: 513
-----------------------------------------
-Title: British Comic Creator R.E. Burke Detained by ICE After Crossing Border
-Story URL: https://bleedingcool.com/comics/british-comic-creator-r-e-burke-detained-by-ice-after-crossing-border/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326261
-Points: 24
-Comments: 10
-----------------------------------------
-Title: Firefox for Android starting to share location data with third parties
-Story URL: No URL
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326230
-Points: 42
-Comments: 9
-----------------------------------------
-Title: Former Google CEO Eric Schmidt Is the New Leader of Relativity Space
-Story URL: https://arstechnica.com/space/2025/03/former-google-ceo-eric-schmidt-is-the-new-leader-of-relativity-space/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326206
-Points: 9
-Comments: 1
-----------------------------------------
-Title: NASA Eliminates Chief Scientist and Other Jobs at Its Headquarters
-Story URL: https://www.nytimes.com/2025/03/10/science/nasa-chief-scientist-fired-katherine-calvin.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326178
-Points: 23
-Comments: 1
-----------------------------------------
-Title: A Library for Point and Click Adventures
-Story URL: https://github.com/pinguin999/ALPACA
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326151
-Points: 25
-Comments: 0
-----------------------------------------
-Title: Developer Convicted of Criminal Sabotage for Kill Switch When Fired
-Story URL: https://gizmodo.com/a-dev-built-a-kill-switch-that-activated-when-he-got-fired-now-hes-convicted-of-criminal-sabotage-2000574032
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326146
-Points: 6
-Comments: 0
-----------------------------------------
-Title: OpenZFS 2.3.1 Released with Linux 6.13 Compatibility, Many Fixes
-Story URL: https://www.phoronix.com/news/OpenZFS-2.3.1-Released
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326103
-Points: 7
-Comments: 0
-----------------------------------------
-Title: China's Homegrown EUV Machines Rumored for Q3 Trial Production
-Story URL: https://www.trendforce.com/news/2025/03/10/news-chinas-homegrown-euv-machines-rumored-for-q3-trial-production-spelling-trouble-for-asml/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326084
-Points: 5
-Comments: 2
-----------------------------------------
-Title: Working with Systemd Timers
-Story URL: https://yieldcode.blog/post/working-with-systemd-timers/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326080
-Points: 80
-Comments: 78
-----------------------------------------
-Title: Asana CEO Dustin Moskovitz announces retirement, stock plummets 25%
-Story URL: https://www.cnbc.com/2025/03/10/asana-ceo-dustin-moskovitz-announces-retirement-stock-price-drops-25percent.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326044
-Points: 7
-Comments: 1
-----------------------------------------
-Title: Bypassing the Branch Predictor
-Story URL: https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43326043
-Points: 9
-Comments: 2
-----------------------------------------
-Title: Energy Conservation with Open Source Ad Blockers
-Story URL: https://www.mdpi.com/2227-7080/8/2/18
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325792
-Points: 7
-Comments: 1
-----------------------------------------
-Title: Internet shutdowns at record high in Africa as access 'weaponised'
-Story URL: https://www.theguardian.com/technology/2025/mar/09/internet-shutdowns-record-high-africa-2024-access-weaponised
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325628
-Points: 289
-Comments: 259
-----------------------------------------
-Title: Elon Musk says X hit by 'massive cyber attack' as users unable to log in
-Story URL: https://news.sky.com/story/elon-musk-says-x-hit-by-massive-cyber-attack-as-users-unable-to-log-in-13325939
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325591
-Points: 5
-Comments: 0
-----------------------------------------
-Title: US-Flagged Oil Tanker 'Stena Immaculate' in Flames After Collision
-Story URL: https://gcaptain.com/us-merchant-marine-oil-tanker-in-flames-off-uk/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325535
-Points: 12
-Comments: 1
-----------------------------------------
-Title: The surprising impact of QR code menus on diminishing customer loyalty
-Story URL: https://www.sciencedirect.com/science/article/abs/pii/S1447677024001190
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325449
-Points: 5
-Comments: 2
-----------------------------------------
-Title: Third time's the charm? EU considers fining Apple over DMA yet again
-Story URL: https://appleinsider.com/articles/25/03/10/third-times-the-charm-eu-considers-fining-apple-over-dma-yet-again
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325430
-Points: 5
-Comments: 0
-----------------------------------------
-Title: Raspberry Pi powers briefcase-sized PiEEG 'Bio Lab' project
-Story URL: https://www.tomshardware.com/raspberry-pi/raspberry-pi-powers-briefcase-sized-pieeg-bio-lab-project
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325409
-Points: 11
-Comments: 0
-----------------------------------------
-Title: Eric Schmidt Joins Relativity Space as CEO
-Story URL: https://www.nytimes.com/2025/03/10/technology/eric-schmidt-relativity-space.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325390
-Points: 14
-Comments: 0
-----------------------------------------
-Title: Immune cells convert bacteria into critical nutrients, scientists discover
-Story URL: https://medicalxpress.com/news/2025-02-immune-cells-bacteria-critical-nutrients.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325388
-Points: 5
-Comments: 0
-----------------------------------------
-Title: Software Foundations
-Story URL: https://softwarefoundations.cis.upenn.edu/current/index.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325387
-Points: 6
-Comments: 0
-----------------------------------------
-Title: NASA closes offices, lays off staff, prepares for larger workforce reductions
-Story URL: https://spacenews.com/nasa-closes-offices-lays-off-staff-as-it-prepares-for-larger-workforce-reductions/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325199
-Points: 19
-Comments: 6
-----------------------------------------
-Title: Ask HN: What is the actual cost basis of the stock market?
-Story URL: No URL
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325198
-Points: 46
-Comments: 40
-----------------------------------------
-Title: U.S. shifts to 'Muck-Around-and-Find-Out' policy, economist says
-Story URL: https://www.cnbc.com/2025/03/09/stock-market-news-today-live-updates.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325144
-Points: 12
-Comments: 4
-----------------------------------------
-Title: Why MCP Won
-Story URL: https://www.latent.space/p/why-mcp-won
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325136
-Points: 7
-Comments: 2
-----------------------------------------
-Title: Bluesky CEO Jay Graber pokes fun at Zuckerberg with Latin phrase T-shirt
-Story URL: https://techcrunch.com/2025/03/10/at-sxsw-bluesky-ceo-jay-graber-pokes-fun-at-mark-zuckerberg-with-latin-phrase-t-shirt/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325090
-Points: 19
-Comments: 1
-----------------------------------------
-Title: Ask HN: Any insider takes on Yann LeCun's push against current architectures?
-Story URL: No URL
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325049
-Points: 385
-Comments: 325
-----------------------------------------
-Title: We've been wrong about math for 2300 years
-Story URL: https://davidbessis.substack.com/p/weve-been-wrong-about-math-for-2300
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325019
-Points: 38
-Comments: 32
-----------------------------------------
-Title: Ask HN: How to find intellectually challenging work?
-Story URL: No URL
-Hacker News Post URL: https://news.ycombinator.com/item?id=43325004
-Points: 14
-Comments: 31
-----------------------------------------
-Title: Notte – Opensource AI Browser Operator
-Story URL: https://twitter.com/nottecore/status/1898080454831493356
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324924
-Points: 7
-Comments: 1
-----------------------------------------
-Title: Ancient ocean coastal deposits imaged on Mars
-Story URL: https://www.pnas.org/doi/10.1073/pnas.2422213122
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324887
-Points: 39
-Comments: 3
-----------------------------------------
-Title: Obsessing over loneliness is a key factor in the development of depression
-Story URL: https://english.elpais.com/health/2025-03-10/obsessing-over-loneliness-is-a-key-factor-in-the-development-of-depression.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324796
-Points: 6
-Comments: 2
-----------------------------------------
-Title: Elon Musk's X hit by waves of outages, what he claims is 'a cyberattack'
-Story URL: https://www.cnn.com/2025/03/10/tech/elon-musk-x-outages/index.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324769
-Points: 10
-Comments: 0
-----------------------------------------
-Title: Senator Ron Wyden on why the internet still needs Section 230
-Story URL: https://www.theverge.com/policy/626326/ron-wyden-section-230-history-it-takes-chutzpah-excerpt
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324657
-Points: 10
-Comments: 1
-----------------------------------------
-Title: Apple Readies Dramatic Software Overhaul for iPhone, iPad and Mac
-Story URL: https://www.bloomberg.com/news/articles/2025-03-10/apple-readies-dramatic-design-overhauls-for-ios-19-ipados-19-and-macos-16
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324586
-Points: 11
-Comments: 3
-----------------------------------------
-Title: The NASA RIF has begun
-Story URL: https://nasawatch.com/ask-the-administrator/the-nasa-rif-has-begun/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324525
-Points: 18
-Comments: 1
-----------------------------------------
-Title: Dryers in the US consume ~3% of residential energy budget, 6x washing machines
-Story URL: https://news.umich.edu/clothes-dryers-and-the-bottom-line-switching-to-air-drying-can-save-hundreds/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324459
-Points: 26
-Comments: 45
-----------------------------------------
-Title: Unraveling Time: A Deep Dive into TTD Instruction Emulation Bugs
-Story URL: https://cloud.google.com/blog/topics/threat-intelligence/ttd-instruction-emulation-bugs
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324350
-Points: 26
-Comments: 5
-----------------------------------------
-Title: Sourdough FAQ (2010)
-Story URL: https://www.nyx.net/~dgreenw/sourdoughqa.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324310
-Points: 6
-Comments: 0
-----------------------------------------
-Title: Cancer Institute Employees Can't Publish on These Topics Without Approval
-Story URL: https://www.propublica.org/article/national-cancer-institute-flagged-topics-vaccines-autism-rfk-jr
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324279
-Points: 103
-Comments: 15
-----------------------------------------
-Title: I quit my FAANG job because it'll be automated by the end of the year (2025)
-Story URL: https://jagilley.github.io/faang-blog.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324220
-Points: 26
-Comments: 26
-----------------------------------------
-Title: Tesla shares plunge 14%, head for worst day in five years
-Story URL: https://www.cnbc.com/2025/03/10/tesla-shares-plunge-14percent-head-for-worst-day-in-five-years.html
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324157
-Points: 113
-Comments: 130
-----------------------------------------
-Title: The legend of the 'Tesla killer' came true, and it's Elon Musk
-Story URL: https://electrek.co/2025/03/10/the-legend-of-the-tesla-killer-finally-came-true-and-its-elon-musk/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324079
-Points: 45
-Comments: 6
-----------------------------------------
-Title: Musk blames X outage on cyberattack
-Story URL: https://www.reuters.com/technology/social-media-platform-x-down-thousands-users-downdetector-shows-2025-03-10/
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324072
-Points: 13
-Comments: 1
-----------------------------------------
-Title: British tourist detained by US authorities for 10 days over visa issue
-Story URL: https://www.theguardian.com/uk-news/2025/mar/10/british-tourist-detained-us-authorities-10-days-visa-issue
-Hacker News Post URL: https://news.ycombinator.com/item?id=43324040
-Points: 205
-Comments: 245
-----------------------------------------
 end
-Total number of posts: 307
+Total number of posts: 309
