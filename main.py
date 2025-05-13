@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # today = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-date = "2025-03-11"
+date = "2025-05-11"
 today = date
 base_dir = "knowledgebase"
 
