@@ -10,8 +10,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-today = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-# today = "2025-05-11"
+# today = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+today = "2025-05-9"
 
 base_dir = "knowledgebase"
 
