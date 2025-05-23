@@ -38,7 +38,8 @@ def send_newsletter(html_path: str, subject: str):
             {"email": "iamsid0011@gmail.com", "name": "rcp2"},
             {"email": "supratikkar2003@gmail.com", "name": "rcp3"},
             {"email": "mayankrm2003@gmail.com", "name": "rcp4"},
-            {"email": "dhatri.c22@gmail.com", "name": "rcp5"}
+            {"email": "dhatri.c22@gmail.com", "name": "rcp5"},
+            {"email": "knithin1516@gmail.com", "name": "rcp6"}
         ],
         subject=subject,
         html_content=content,

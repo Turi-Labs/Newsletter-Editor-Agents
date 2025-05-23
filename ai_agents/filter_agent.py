@@ -20,6 +20,7 @@ def load_prompts():
         raise Exception(f"Error parsing YAML file: {e}")
 
 load_dotenv(override=True)
+
 api_key = os.getenv("OPENAI_API_KEY")
 logger.info(f"Using API key")
 prompts = load_prompts()
