@@ -27,7 +27,6 @@ prompts = load_prompts()
 
 llm = LLM(
     model="openai/o3-mini",
-    temperature=0.8,
     stop=["END"],
     seed=42
 )

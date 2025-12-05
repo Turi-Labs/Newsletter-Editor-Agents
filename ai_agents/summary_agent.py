@@ -29,7 +29,6 @@ logger.info("Prompts loaded successfully")
 
 llm = LLM(
     model="openai/o3-mini",
-    temperature=0.8,
     stop=["END"],
     seed=42
 )

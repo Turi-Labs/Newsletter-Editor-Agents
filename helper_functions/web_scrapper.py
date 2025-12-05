@@ -1,4 +1,5 @@
-import requests
+import aiohttp
+import asyncio
 from bs4 import BeautifulSoup
 import logging
 
@@ -6,14 +7,16 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def extract_main_content(url):
+async def extract_main_content(url):
     try:
         logger.info(f"Attempting to extract content from URL: {url}")
         # Send HTTP GET request
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        response = requests.get(url, headers=headers, timeout=15)
-        response.raise_for_status()
-        
+        # response = requests.get(url, headers=headers, timeout=15)
+        # response.raise_for_status()
+        async with session.get(url, headers=headers, timeout=15) as response:
+            response.raise_for_status()
+            html_content = await response.text()
         # Parse HTML
         soup = BeautifulSoup(response.text, 'html.parser')
         

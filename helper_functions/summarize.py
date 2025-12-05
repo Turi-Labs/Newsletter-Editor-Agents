@@ -1,7 +1,7 @@
 from ai_agents.summary_agent import generate_summary
 from helper_functions.web_scrapper import extract_main_content
 import logging
-
+import asyncio
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -49,7 +49,7 @@ def get_link_content(extracted_links):
     content = []
     for title, hn_link, link in extracted_links:
         logger.info(f"Extracting content from link: {link}")
-        c = extract_main_content(hn_link)
+        c = asyncio.run(extract_main_content(hn_link))
         content.append((title, c, link))
     return content
 
