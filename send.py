@@ -42,7 +42,7 @@ def convert_md_to_slack(html: str) -> str:
     # Clean excess spacing
     lines = [line.rstrip() for line in text.split("\n")]
     # Add markdown separator
-    lines.append("---")
+    lines.append("--------------------------------")
     return "\n".join([l for l in lines if l.strip() != ""])
 
 
