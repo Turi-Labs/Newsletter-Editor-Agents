@@ -14,7 +14,7 @@ def convert_md_to_slack(html: str) -> str:
 
     # Convert links
     # Add markdown separator
-    lines.append("---")
+
     for a in soup.find_all("a"):
         text = a.text.strip()
         href = a.get("href", "")
