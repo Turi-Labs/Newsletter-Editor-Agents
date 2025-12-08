@@ -33,6 +33,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
         run: |
           python send.py || echo "Send script exited with code: $?"
         continue-on-error: true

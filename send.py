@@ -13,6 +13,8 @@ def convert_md_to_slack(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
 
     # Convert links
+    # Add markdown separator
+    lines.append("---")
     for a in soup.find_all("a"):
         text = a.text.strip()
         href = a.get("href", "")
@@ -39,6 +41,8 @@ def convert_md_to_slack(html: str) -> str:
 
     # Clean excess spacing
     lines = [line.rstrip() for line in text.split("\n")]
+    # Add markdown separator
+    lines.append("---")
     return "\n".join([l for l in lines if l.strip() != ""])
 
 
