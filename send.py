@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 load_dotenv()
 
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
-CHANNEL_ID = os.getenv("SLACK_CHANNEL_ID")
+CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 def convert_md_to_slack(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
