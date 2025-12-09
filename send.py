@@ -96,7 +96,7 @@ if __name__ == "__main__":
         md_path = f"newsletter/{today}.md"
 
         title = f"Daily Newsletter • {today}"
-
+        
         success = send_slack_message(md_path, title)
 
         if not success:
