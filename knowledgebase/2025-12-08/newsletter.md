@@ -1,0 +1,14 @@
+Welcome to your rapid brief on today's key AI moves, designed for a quick read.
+
+• **US Exports Nvidia H200 Chips:** Trump greenlights sale to China with 25% revenue cut. [Read More](https://www.cnbc.com/2025/12/08/trump-nvidia-h200-sales-china.html)  
+• **DeepSeek V3.2 Launch:** New open LLM breakthrough pushes AI language model frontiers. [Read More](https://cas-bridge.xethub.hf.co/xet-bridge-us/692cfec93b25b81d09307b94/2d0aa38511b9df084d12a00fe04a96595496af772cb766c516c4e6aee1e21246?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T221340Z&X-Amz-Expires=3600&X-Amz-Signature=d0f4f9002d0774e09295e16f12cbc6f7ff2b07bd478de6499bed106f2b7c9f98&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27paper.pdf%3B+filename%3D%22paper.pdf%22%3B&response-content-type=application%2Fpdf&x-id=GetObject&Expires=1765235620&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIzNTYyMH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82OTJjZmVjOTNiMjViODFkMDkzMDdiOTQvMmQwYWEzODUxMWI5ZGYwODRkMTJhMDBmZTA0YTk2NTk1NDk2YWY3NzJjYjc2NmM1MTZjNGU2YWVlMWUyMTI0NioifV19&Signature=EeqhOS1osfBzGB3wG5s357L8PvPXHkO3KvhmOAzD3zP9GbuijeBG6Ph8c3GSdXkL7g%7Eh0QXxx0impxRLeibIZO1Ttx1MHuiKE6xkgbLsIe000BSudr%7EErhb%7EEKbjIIFjf0xFA9m8lux8gtNsYPyIpQWw5urO3obJYk2CHoyRPiyA2H21wBt6Y2ouuYo58vDW%7EWkJyD2MVtj%7Et9n9E3WX0xJ9hl9hLFEf-4rFsmKKDWO-3Qt84Ry1L5sPweoQmJ2fH9uebemFiv33H8QRtGPf7%7E-J3GwSouuPm8euFUirxH-R5uzwuWxqxlYK9mfPS6yFoD541umFxTczeH35Z9tqPw__)  
+
+• **Claude Code in Slack:** Advanced coding AI now integrated to boost collaborative workflows. [Read More](https://techcrunch.com/2025/12/08/claude-code-is-coming-to-slack-and-thats-a-bigger-deal-than-it-sounds/)  
+• **Tesla Robot Tumble:** Optimus demo sees a stumble, stirring stability and control questions. [Read More](https://electrek.co/2025/12/07/tesla-optimus-robot-takes-suspicious-tumble-in-new-demo/)  
+• **Meta Expands AI Hardware:** Acquisition of Limitless signals deeper push into integrated AI devices. [Read More](https://techcrunch.com/2025/12/05/meta-acquires-ai-device-startup-limitless/)  
+• **Google Gemini Ads:** Future ad integrations on Gemini set for a 2026 debut merging AI with marketing. [Read More](https://www.adweek.com/media/google-gemini-ads-2026/)  
+• **National AI Rule:** Trump to sign executive order to streamline AI development approvals. [Read More](https://www.reuters.com/world/trump-says-he-will-sign-executive-order-this-week-ai-approval-process-2025-12-08/)
+
+Quick Takeaway: Today’s top stories signal pivotal policy shifts, innovative model launches, and strategic tech integrations that are reshaping the AI landscape.
+
+Let's see you tmrw.
